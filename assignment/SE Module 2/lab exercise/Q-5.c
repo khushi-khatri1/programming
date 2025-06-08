@@ -15,7 +15,7 @@ main()
 		printf("number is odd.");
 	}
 	
-	printf("\nenter a number (1-2) to get month name:");
+	printf("\n\nenter a number (1-12) to get month name:");
 	scanf("%d",&month);
 	
 	switch(month)
@@ -26,6 +26,46 @@ main()
 		
 		case 2:
 		printf("february\n");
+		break;
+		
+		case 3:
+		printf("March\n");
+		break;
+		
+		case 4:
+		printf("April\n");
+		break;
+		
+		case 5:
+		printf("May\n");
+		break;
+		
+		case 6:
+		printf("June\n");
+		break;
+		
+		case 7:
+		printf("July\n");
+		break;
+		
+		case 8:
+		printf("August\n");
+		break;
+		
+		case 9:
+		printf("September\n");
+		break;
+		
+		case 10:
+		printf("october\n");
+		break;
+		
+		case 11:
+		printf("November\n");
+		break;
+		
+		case 12:
+		printf("December\n");
 		break;
 	}
 }

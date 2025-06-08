@@ -16,18 +16,18 @@ class pri{
 		
 		fun1()
 		{
-			int i,n,count;
+			int i,n,count=0;
 			cout<<"Enter number:"<<endl;
 			cin>>n;
 			
 			for(i=1;i<=n;i++)
 			{
-				if(n%1==0)
+				if(n%i==0)
 				{
 					count++;
 				}
 			}
-			if(n==2)
+			if(count==2)
 			{
 				cout<<"Prime number"<<endl;
 			}

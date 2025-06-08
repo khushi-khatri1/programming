@@ -12,8 +12,7 @@ class B:public A{
 	public:
 		fun2()
 		{
-			cout<<"everyone
-			"<<endl;
+			cout<<"everyone"<<endl;
 		}
 };	
 main()

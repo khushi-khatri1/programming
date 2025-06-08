@@ -4,9 +4,8 @@
 
 main()
 {
-	int a[2][2];
-	int b[2][2];
-	int i,j;
+	int a[2][2],b[2][2],ans[2][2]={0};
+	int i,j,k;
 
 	printf("-------Matrix:1-------\n");
 	for(i=0;i<2;i++) //rows
@@ -50,9 +49,23 @@ main()
 	
 	printf("\n-------Result: Multiplication Matrix-------\n\n");
 
-			printf("\t%d",a[0][0]*b[0][0]+a[0][1]*b[1][0]);
-			printf("\t%d",a[0][0]*b[0][1]+a[0][1]*b[1][1]);
-			printf("\n");
-			printf("\t%d",a[1][0]*b[0][0]+a[1][1]*b[1][0]);
-			printf("\t%d",a[1][0]*b[0][1]+a[1][1]*b[1][1]);// matrix multiplication
+	for(i=0;i<2;i++)
+	{
+		for(j=0;j<2;j++)
+		{
+	 		for(k=0;k<2;k++)
+			{
+				ans[i][j]+=a[i][k] * b[k][j];
+			}
+		}
+	}
+	
+	for(i=0;i<2;i++)
+	{
+		for(j=0;j<2;j++)
+		{
+	 		printf("\t%d",ans[i][j]); // printing multiplication array
+		}
+		printf("\n");
+	}
 }

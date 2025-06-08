@@ -5,11 +5,11 @@ union desc{
 	int i;
 	int j;
 	int temp;
-}s1,s2,s3,s4;
+};
 
 main()
 {
-//	union desc s1,s2,s3,s4;
+	union desc s1,s2,s3,s4;
 	for(s2.i=0;s2.i<5;s2.i++)
 	{
 		printf("Enter elements:");

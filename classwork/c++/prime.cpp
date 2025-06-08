@@ -10,12 +10,12 @@ main()
 	
 	for(i=1;i<=n;i++)
 	{
-		if(n%1==0)
+		if(n%i==0)
 		{
 			count++;
 		}
 	}
-	if(n==2)
+	if(count==2)
 	{
 		cout<<n<<"is prime";
 	}
