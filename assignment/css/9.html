@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            background-color: rgb(158, 188, 244);
+        }
+        .header{
+            width: 100%;
+            color: white;
+            background-color: rgb(42, 3, 114);
+            display: flex;
+            justify-content: space-evenly;
+            padding: 15px;
+        }
+        .main-container{
+            display: grid;
+            gap: 10px;
+            padding: 10px;
+        }
+        .cs{
+            padding: 15px;
+            text-align: center;
+            background-color: rgb(162, 194, 0);
+            color: white;
+        }
+        .footer{
+            padding: 15px;
+            color: white;
+            text-align: center;
+            background-color: rgb(3, 81, 35);
+        }
+        @media (max-width:768px) {
+            .main-container{
+                grid-template-columns: 1;
+            }
+        }
+        @media (min-width:769px){
+            .main-container{
+                grid-template-columns: 2;
+            }
+
+            .header,.footer{
+                grid-column: span 2;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="main-container">
+        <div class="header">
+            <div>1</div>
+            <div>2</div>
+            <div>3</div>
+        </div>
+
+        <div class="cs">CONTENT SECTION-1</div>
+        <div class="cs">CONTENT SECTION-2</div>
+        <div class="cs">CONTENT SECTION-3</div>
+
+        <div class="footer">
+            FOOTER AREA
+        </div>
+    </div>
+</body>
+</html>

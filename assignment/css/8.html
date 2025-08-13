@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .btns{
+            display: flex;
+            justify-content: space-evenly;
+        }
+
+        .btns button{
+            height: 50px;
+            width: 120px;
+            border-radius: 10px;
+            font-weight: 300;
+            font-size: 15px;
+            padding: 15px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+            color: white;
+            transition: background-color 0.3s ease, transform 0.2s ease;
+        }
+
+        .p{
+        background-color: #007bff;
+        }
+        .s{
+        background-color: #6c757d;
+        }
+        .d{
+        background-color: #dc3545;
+        }
+
+        .p:hover{
+            background-color: #2dc91f;
+        }
+        .s:hover{
+            background-color: #811e6a;
+        }
+        .d:hover{
+            background-color: #abeb2c;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="btns">
+        <button class="p">Primary</button>
+        <button class="s">Secondary</button>
+        <button class="d">Danger</button>
+    </div>
+</body>
+</html>

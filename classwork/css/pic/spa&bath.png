@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<!-- saved from url=(0039)https://prium.github.io/nirvana/v2.0.0/ -->
+<html lang="en-US" dir="ltr" class="chrome windows fontawesome-i2svg-active fontawesome-i2svg-complete"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- ===============================================--><!--    Document Title--><!-- ===============================================-->
+    <title>Nirvana | Spa, Relax, Adventure</title>
+
+    <!-- ===============================================--><!--    Favicons--><!-- ===============================================-->
+    <style type="text/css">svg:not(:root).svg-inline--fa{overflow:visible}.svg-inline--fa{display:inline-block;font-size:inherit;height:1em;overflow:visible;vertical-align:-.125em}.svg-inline--fa.fa-lg{vertical-align:-.225em}.svg-inline--fa.fa-w-1{width:.0625em}.svg-inline--fa.fa-w-2{width:.125em}.svg-inline--fa.fa-w-3{width:.1875em}.svg-inline--fa.fa-w-4{width:.25em}.svg-inline--fa.fa-w-5{width:.3125em}.svg-inline--fa.fa-w-6{width:.375em}.svg-inline--fa.fa-w-7{width:.4375em}.svg-inline--fa.fa-w-8{width:.5em}.svg-inline--fa.fa-w-9{width:.5625em}.svg-inline--fa.fa-w-10{width:.625em}.svg-inline--fa.fa-w-11{width:.6875em}.svg-inline--fa.fa-w-12{width:.75em}.svg-inline--fa.fa-w-13{width:.8125em}.svg-inline--fa.fa-w-14{width:.875em}.svg-inline--fa.fa-w-15{width:.9375em}.svg-inline--fa.fa-w-16{width:1em}.svg-inline--fa.fa-w-17{width:1.0625em}.svg-inline--fa.fa-w-18{width:1.125em}.svg-inline--fa.fa-w-19{width:1.1875em}.svg-inline--fa.fa-w-20{width:1.25em}.svg-inline--fa.fa-pull-left{margin-right:.3em;width:auto}.svg-inline--fa.fa-pull-right{margin-left:.3em;width:auto}.svg-inline--fa.fa-border{height:1.5em}.svg-inline--fa.fa-li{width:2em}.svg-inline--fa.fa-fw{width:1.25em}.fa-layers svg.svg-inline--fa{bottom:0;left:0;margin:auto;position:absolute;right:0;top:0}.fa-layers{display:inline-block;height:1em;position:relative;text-align:center;vertical-align:-.125em;width:1em}.fa-layers svg.svg-inline--fa{-webkit-transform-origin:center center;transform-origin:center center}.fa-layers-counter,.fa-layers-text{display:inline-block;position:absolute;text-align:center}.fa-layers-text{left:50%;top:50%;-webkit-transform:translate(-50%,-50%);transform:translate(-50%,-50%);-webkit-transform-origin:center center;transform-origin:center center}.fa-layers-counter{background-color:#ff253a;border-radius:1em;-webkit-box-sizing:border-box;box-sizing:border-box;color:#fff;height:1.5em;line-height:1;max-width:5em;min-width:1.5em;overflow:hidden;padding:.25em;right:0;text-overflow:ellipsis;top:0;-webkit-transform:scale(.25);transform:scale(.25);-webkit-transform-origin:top right;transform-origin:top right}.fa-layers-bottom-right{bottom:0;right:0;top:auto;-webkit-transform:scale(.25);transform:scale(.25);-webkit-transform-origin:bottom right;transform-origin:bottom right}.fa-layers-bottom-left{bottom:0;left:0;right:auto;top:auto;-webkit-transform:scale(.25);transform:scale(.25);-webkit-transform-origin:bottom left;transform-origin:bottom left}.fa-layers-top-right{right:0;top:0;-webkit-transform:scale(.25);transform:scale(.25);-webkit-transform-origin:top right;transform-origin:top right}.fa-layers-top-left{left:0;right:auto;top:0;-webkit-transform:scale(.25);transform:scale(.25);-webkit-transform-origin:top left;transform-origin:top left}.fa-lg{font-size:1.3333333333em;line-height:.75em;vertical-align:-.0667em}.fa-xs{font-size:.75em}.fa-sm{font-size:.875em}.fa-1x{font-size:1em}.fa-2x{font-size:2em}.fa-3x{font-size:3em}.fa-4x{font-size:4em}.fa-5x{font-size:5em}.fa-6x{font-size:6em}.fa-7x{font-size:7em}.fa-8x{font-size:8em}.fa-9x{font-size:9em}.fa-10x{font-size:10em}.fa-fw{text-align:center;width:1.25em}.fa-ul{list-style-type:none;margin-left:2.5em;padding-left:0}.fa-ul>li{position:relative}.fa-li{left:-2em;position:absolute;text-align:center;width:2em;line-height:inherit}.fa-border{border:solid .08em #eee;border-radius:.1em;padding:.2em .25em .15em}.fa-pull-left{float:left}.fa-pull-right{float:right}.fa.fa-pull-left,.fab.fa-pull-left,.fal.fa-pull-left,.far.fa-pull-left,.fas.fa-pull-left{margin-right:.3em}.fa.fa-pull-right,.fab.fa-pull-right,.fal.fa-pull-right,.far.fa-pull-right,.fas.fa-pull-right{margin-left:.3em}.fa-spin{-webkit-animation:fa-spin 2s infinite linear;animation:fa-spin 2s infinite linear}.fa-pulse{-webkit-animation:fa-spin 1s infinite steps(8);animation:fa-spin 1s infinite steps(8)}@-webkit-keyframes fa-spin{0%{-webkit-transform:rotate(0);transform:rotate(0)}100%{-webkit-transform:rotate(360deg);transform:rotate(360deg)}}@keyframes fa-spin{0%{-webkit-transform:rotate(0);transform:rotate(0)}100%{-webkit-transform:rotate(360deg);transform:rotate(360deg)}}.fa-rotate-90{-webkit-transform:rotate(90deg);transform:rotate(90deg)}.fa-rotate-180{-webkit-transform:rotate(180deg);transform:rotate(180deg)}.fa-rotate-270{-webkit-transform:rotate(270deg);transform:rotate(270deg)}.fa-flip-horizontal{-webkit-transform:scale(-1,1);transform:scale(-1,1)}.fa-flip-vertical{-webkit-transform:scale(1,-1);transform:scale(1,-1)}.fa-flip-both,.fa-flip-horizontal.fa-flip-vertical{-webkit-transform:scale(-1,-1);transform:scale(-1,-1)}:root .fa-flip-both,:root .fa-flip-horizontal,:root .fa-flip-vertical,:root .fa-rotate-180,:root .fa-rotate-270,:root .fa-rotate-90{-webkit-filter:none;filter:none}.fa-stack{display:inline-block;height:2em;position:relative;width:2.5em}.fa-stack-1x,.fa-stack-2x{bottom:0;left:0;margin:auto;position:absolute;right:0;top:0}.svg-inline--fa.fa-stack-1x{height:1em;width:1.25em}.svg-inline--fa.fa-stack-2x{height:2em;width:2.5em}.fa-inverse{color:#fff}.sr-only{border:0;clip:rect(0,0,0,0);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px}.sr-only-focusable:active,.sr-only-focusable:focus{clip:auto;height:auto;margin:0;overflow:visible;position:static;width:auto}.svg-inline--fa .fa-primary{fill:var(--fa-primary-color,currentColor);opacity:1;opacity:var(--fa-primary-opacity,1)}.svg-inline--fa .fa-secondary{fill:var(--fa-secondary-color,currentColor);opacity:.4;opacity:var(--fa-secondary-opacity,.4)}.svg-inline--fa.fa-swap-opacity .fa-primary{opacity:.4;opacity:var(--fa-secondary-opacity,.4)}.svg-inline--fa.fa-swap-opacity .fa-secondary{opacity:1;opacity:var(--fa-primary-opacity,1)}.svg-inline--fa mask .fa-primary,.svg-inline--fa mask .fa-secondary{fill:#000}.fad.fa-inverse{color:#fff}</style><link rel="apple-touch-icon" sizes="180x180" href="https://prium.github.io/nirvana/v2.0.0/assets/images/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://prium.github.io/nirvana/v2.0.0/assets/images/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://prium.github.io/nirvana/v2.0.0/assets/images/favicons/favicon-16x16.png">
+    <link rel="shortcut icon" type="image/x-icon" href="https://prium.github.io/nirvana/v2.0.0/assets/images/favicons/favicon.ico">
+    <link rel="manifest" href="https://prium.github.io/nirvana/v2.0.0/assets/images/favicons/manifest.json">
+    <meta name="msapplication-TileImage" content="assets/images/favicons/mstile-150x150.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <!-- ===============================================--><!--    Stylesheets--><!-- ===============================================-->
+    <link href="./spa&amp;bath_files/loaders.min.css" rel="stylesheet" type="text/css">
+    <link rel="preconnect" href="https://fonts.gstatic.com/">
+    <link href="./spa&amp;bath_files/css2" rel="stylesheet">
+    <link href="./spa&amp;bath_files/hamburgers.css" rel="stylesheet">
+    <link rel="stylesheet" href="./spa&amp;bath_files/swiper-bundle.min.css">
+    <link href="./spa&amp;bath_files/theme.min.css" rel="stylesheet">
+    <link href="./spa&amp;bath_files/user.min.css" rel="stylesheet">
+  <link type="text/css" rel="stylesheet" href="chrome-extension://fheoggkfdfchfphceeifdbepaooicaho/css/mcafee_fonts.css"></head>
+
+  <body>
+    <!-- ===============================================--><!--    Main Content--><!-- ===============================================-->
+    <main class="main" id="top" data-zanim-timeline="{}">
+      
+      <div data-layout="container">
+        <div class="content">
+          <nav class="navbar navbar-top navbar-nirvana navbar-expand-lg fixed-top top-0 start-0 end-0 bg-white">
+            <div class="container py-lg-4"> <a class="navbar-brand position-lg-absolute start-50 top-50 translate-lg-middle" href="https://prium.github.io/nirvana/v2.0.0/"> <img src="./spa&amp;bath_files/logo-nirvana.png" alt="" width="70"></a><button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation" data-hamburger-icon="data-hamburger-icon"><span class="hamburger hamburger--emphatic"><span class="hamburger-box"> <span class="hamburger-inner"></span></span></span></button>
+              <div class="collapse navbar-collapse navbar-nav-top w-100" id="navbarNavDropdown" data-top-nav-dropdowns="data-top-nav-dropdowns">
+                <ul class="navbar-nav py-0 py-lg-2 navitem-span-left">
+                  <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="https://prium.github.io/nirvana/v2.0.0/#!" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-haspopup="true" aria-expanded="false">Home<svg class="svg-inline--fa fa-chevron-down fa-w-14 dropdown-toggle-icon" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-down" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg=""><path fill="currentColor" d="M207.029 381.476L12.686 187.132c-9.373-9.373-9.373-24.569 0-33.941l22.667-22.667c9.357-9.357 24.522-9.375 33.901-.04L224 284.505l154.745-154.021c9.379-9.335 24.544-9.317 33.901.04l22.667 22.667c9.373 9.373 9.373 24.569 0 33.941L240.971 381.476c-9.373 9.372-24.569 9.372-33.942 0z"></path></svg><!-- <span class="fas fa-chevron-down dropdown-toggle-icon"></span> Font Awesome fontawesome.com --></a>
+                    <ul class="dropdown-menu navbar-dropdown-caret">
+                      <li> <a class="dropdown-item active" href="https://prium.github.io/nirvana/v2.0.0/index.html">Youtube background</a></li>
+                      <li> <a class="dropdown-item" href="https://prium.github.io/nirvana/v2.0.0/homes/yt-background-classic.html">Youtube background classic</a></li>
+                      <li> <a class="dropdown-item" href="https://prium.github.io/nirvana/v2.0.0/homes/slider.html">Slider full screen</a></li>
+                      <li> <a class="dropdown-item" href="https://prium.github.io/nirvana/v2.0.0/homes/slider-classic.html">Slider classic</a></li>
+                      <li> <a class="dropdown-item" href="https://prium.github.io/nirvana/v2.0.0/homes/static.html">Image full screen</a></li>
+                      <li> <a class="dropdown-item" href="https://prium.github.io/nirvana/v2.0.0/homes/static-classic.html">Image classic</a></li>
+                      <li> <a class="dropdown-item" href="https://prium.github.io/nirvana/v2.0.0/homes/video.html">Html5 video full screen</a></li>
+                      <li> <a class="dropdown-item" href="https://prium.github.io/nirvana/v2.0.0/homes/video-classic.html">HTML5 video classic</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="https://prium.github.io/nirvana/v2.0.0/#!" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-haspopup="true" aria-expanded="false">Pages<svg class="svg-inline--fa fa-chevron-down fa-w-14 dropdown-toggle-icon" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-down" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg=""><path fill="currentColor" d="M207.029 381.476L12.686 187.132c-9.373-9.373-9.373-24.569 0-33.941l22.667-22.667c9.357-9.357 24.522-9.375 33.901-.04L224 284.505l154.745-154.021c9.379-9.335 24.544-9.317 33.901.04l22.667 22.667c9.373 9.373 9.373 24.569 0 33.941L240.971 381.476c-9.373 9.372-24.569 9.372-33.942 0z"></path></svg><!-- <span class="fas fa-chevron-down dropdown-toggle-icon"></span> Font Awesome fontawesome.com --></a>
+                    <ul class="dropdown-menu navbar-dropdown-caret">
+                      <li> <a class="dropdown-item" href="https://prium.github.io/nirvana/v2.0.0/pages/about.html">About</a></li>
+                      <li> <a class="dropdown-item" href="https://prium.github.io/nirvana/v2.0.0/pages/spa-&amp;-wellness.html">Spa &amp; Wellness</a></li>
+                      <li> <a class="dropdown-item" href="https://prium.github.io/nirvana/v2.0.0/pages/yoga-&amp;-relax.html">Yoga &amp; Relax</a></li>
+                      <li> <a class="dropdown-item" href="https://prium.github.io/nirvana/v2.0.0/pages/wilderness.html">Wilderness</a></li>
+                      <li> <a class="dropdown-item" href="https://prium.github.io/nirvana/v2.0.0/pages/cuisine.html">Cuisine</a></li>
+                      <li> <a class="dropdown-item" href="https://prium.github.io/nirvana/v2.0.0/pages/venues.html">Venues</a></li>
+                      <li> <a class="dropdown-item" href="https://prium.github.io/nirvana/v2.0.0/pages/gallery.html">Gallery</a></li>
+                      <li> <a class="dropdown-item" href="https://prium.github.io/nirvana/v2.0.0/pages/rtl.html">Rtl page</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="https://prium.github.io/nirvana/v2.0.0/#!" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-haspopup="true" aria-expanded="false">Retreats<svg class="svg-inline--fa fa-chevron-down fa-w-14 dropdown-toggle-icon" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-down" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg=""><path fill="currentColor" d="M207.029 381.476L12.686 187.132c-9.373-9.373-9.373-24.569 0-33.941l22.667-22.667c9.357-9.357 24.522-9.375 33.901-.04L224 284.505l154.745-154.021c9.379-9.335 24.544-9.317 33.901.04l22.667 22.667c9.373 9.373 9.373 24.569 0 33.941L240.971 381.476c-9.373 9.372-24.569 9.372-33.942 0z"></path></svg><!-- <span class="fas fa-chevron-down dropdown-toggle-icon"></span> Font Awesome fontawesome.com --></a>
+                    <ul class="dropdown-menu navbar-dropdown-caret">
+                      <li> <a class="dropdown-item" href="https://prium.github.io/nirvana/v2.0.0/retreats/backpack.html">Guided backpacking tour</a></li>
+                      <li> <a class="dropdown-item" href="https://prium.github.io/nirvana/v2.0.0/retreats/herbal.html">Herbal medicine 101</a></li>
+                    </ul>
+                  </li>
+                </ul>
+                <ul class="navbar-nav ms-auto me-0 py-0 py-lg-2 navitem-span-right">
+                  <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="https://prium.github.io/nirvana/v2.0.0/#!" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-haspopup="true" aria-expanded="false">Blog<svg class="svg-inline--fa fa-chevron-down fa-w-14 dropdown-toggle-icon" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-down" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg=""><path fill="currentColor" d="M207.029 381.476L12.686 187.132c-9.373-9.373-9.373-24.569 0-33.941l22.667-22.667c9.357-9.357 24.522-9.375 33.901-.04L224 284.505l154.745-154.021c9.379-9.335 24.544-9.317 33.901.04l22.667 22.667c9.373 9.373 9.373 24.569 0 33.941L240.971 381.476c-9.373 9.372-24.569 9.372-33.942 0z"></path></svg><!-- <span class="fas fa-chevron-down dropdown-toggle-icon"></span> Font Awesome fontawesome.com --></a>
+                    <ul class="dropdown-menu navbar-dropdown-caret">
+                      <li> <a class="dropdown-item" href="https://prium.github.io/nirvana/v2.0.0/blog/blogs.html">Blog archive</a></li>
+                      <li> <a class="dropdown-item" href="https://prium.github.io/nirvana/v2.0.0/blog/single-blog.html">Single blog</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="https://prium.github.io/nirvana/v2.0.0/#!" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-haspopup="true" aria-expanded="false">Contact<svg class="svg-inline--fa fa-chevron-down fa-w-14 dropdown-toggle-icon" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-down" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg=""><path fill="currentColor" d="M207.029 381.476L12.686 187.132c-9.373-9.373-9.373-24.569 0-33.941l22.667-22.667c9.357-9.357 24.522-9.375 33.901-.04L224 284.505l154.745-154.021c9.379-9.335 24.544-9.317 33.901.04l22.667 22.667c9.373 9.373 9.373 24.569 0 33.941L240.971 381.476c-9.373 9.372-24.569 9.372-33.942 0z"></path></svg><!-- <span class="fas fa-chevron-down dropdown-toggle-icon"></span> Font Awesome fontawesome.com --></a>
+                    <ul class="dropdown-menu navbar-dropdown-caret">
+                      <li> <a class="dropdown-item" href="https://prium.github.io/nirvana/v2.0.0/contact/contact.html">Contact</a></li>
+                      <li> <a class="dropdown-item" href="https://prium.github.io/nirvana/v2.0.0/contact/reserve.html">Reserve</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="https://prium.github.io/nirvana/v2.0.0/#!" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-haspopup="true" aria-expanded="false">Components<svg class="svg-inline--fa fa-chevron-down fa-w-14 dropdown-toggle-icon" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-down" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg=""><path fill="currentColor" d="M207.029 381.476L12.686 187.132c-9.373-9.373-9.373-24.569 0-33.941l22.667-22.667c9.357-9.357 24.522-9.375 33.901-.04L224 284.505l154.745-154.021c9.379-9.335 24.544-9.317 33.901.04l22.667 22.667c9.373 9.373 9.373 24.569 0 33.941L240.971 381.476c-9.373 9.372-24.569 9.372-33.942 0z"></path></svg><!-- <span class="fas fa-chevron-down dropdown-toggle-icon"></span> Font Awesome fontawesome.com --></a>
+                    <ul class="dropdown-menu navbar-dropdown-caret">
+                      <li> <a class="dropdown-item" href="https://prium.github.io/nirvana/v2.0.0/components/background.html">Background</a></li>
+                      <li> <a class="dropdown-item" href="https://prium.github.io/nirvana/v2.0.0/components/buttons.html">Buttons</a></li>
+                      <li> <a class="dropdown-item" href="https://prium.github.io/nirvana/v2.0.0/components/carousel.html">Carousel</a></li>
+                      <li> <a class="dropdown-item" href="https://prium.github.io/nirvana/v2.0.0/components/colors.html">Colors</a></li>
+                      <li> <a class="dropdown-item" href="https://prium.github.io/nirvana/v2.0.0/components/decorative-helpers.html">Decorative helpers</a></li>
+                      <li> <a class="dropdown-item" href="https://prium.github.io/nirvana/v2.0.0/components/dropdowns.html">Dropdowns</a></li>
+                      <li> <a class="dropdown-item" href="https://prium.github.io/nirvana/v2.0.0/components/fontawesome.html">Fontawesome</a></li>
+                      <li> <a class="dropdown-item" href="https://prium.github.io/nirvana/v2.0.0/components/googlemap.html">Google map</a></li>
+                      <li> <a class="dropdown-item" href="https://prium.github.io/nirvana/v2.0.0/components/grid.html">Grid</a></li>
+                      <li> <a class="dropdown-item" href="https://prium.github.io/nirvana/v2.0.0/components/layout-helpers.html">Layout helpers</a></li>
+                      <li> <a class="dropdown-item" href="https://prium.github.io/nirvana/v2.0.0/components/lightbox.html">Lightbox</a></li>
+                      <li> <a class="dropdown-item" href="https://prium.github.io/nirvana/v2.0.0/components/modals.html">Modals</a></li>
+                      <li> <a class="dropdown-item" href="https://prium.github.io/nirvana/v2.0.0/components/parallax.html">Parallax</a></li>
+                      <li> <a class="dropdown-item" href="https://prium.github.io/nirvana/v2.0.0/components/smtpjs.html">Smtpjs</a></li>
+                      <li> <a class="dropdown-item" href="https://prium.github.io/nirvana/v2.0.0/components/spacing.html">Spacing</a></li>
+                      <li> <a class="dropdown-item" href="https://prium.github.io/nirvana/v2.0.0/components/swiper.html">Swiper</a></li>
+                      <li> <a class="dropdown-item" href="https://prium.github.io/nirvana/v2.0.0/components/typography.html">Typography</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="https://prium.github.io/nirvana/v2.0.0/#!" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-haspopup="true" aria-expanded="false">Docs<svg class="svg-inline--fa fa-chevron-down fa-w-14 dropdown-toggle-icon" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-down" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg=""><path fill="currentColor" d="M207.029 381.476L12.686 187.132c-9.373-9.373-9.373-24.569 0-33.941l22.667-22.667c9.357-9.357 24.522-9.375 33.901-.04L224 284.505l154.745-154.021c9.379-9.335 24.544-9.317 33.901.04l22.667 22.667c9.373 9.373 9.373 24.569 0 33.941L240.971 381.476c-9.373 9.372-24.569 9.372-33.942 0z"></path></svg><!-- <span class="fas fa-chevron-down dropdown-toggle-icon"></span> Font Awesome fontawesome.com --></a>
+                    <ul class="dropdown-menu navbar-dropdown-caret">
+                      <li> <a class="dropdown-item" href="https://prium.github.io/nirvana/v2.0.0/docs/getting-started.html">Getting Started</a></li>
+                      <li> <a class="dropdown-item" href="https://prium.github.io/nirvana/v2.0.0/docs/file-structure.html">File Structure</a></li>
+                      <li> <a class="dropdown-item" href="https://prium.github.io/nirvana/v2.0.0/docs/customization.html">Customization</a></li>
+                      <li> <a class="dropdown-item" href="https://prium.github.io/nirvana/v2.0.0/docs/gulp.html">Gulp</a></li>
+                      <li> <a class="dropdown-item" href="https://prium.github.io/nirvana/v2.0.0/docs/rtl.html">RTL</a></li>
+                      <li> <a class="dropdown-item" href="https://prium.github.io/nirvana/v2.0.0/docs/plugins.html">Plugins</a></li>
+                      <li> <a class="dropdown-item" href="https://prium.github.io/nirvana/v2.0.0/docs/changelog.html">Changelog</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+          <div class="overflow-hidden">
+
+            <!-- ============================================--><!-- <section> begin ============================-->
+            <section class="py-0 text-center banner">
+              <div class="bg-holder overlay" style="background-image: url(&quot;assets/images/yt-video-full.jpg&quot;); filter: blur(0px); opacity: 1; transform: translate(0px, 0px);" data-zanim-xs="{&quot;delay&quot;:0.5,&quot;animation&quot;:&quot;zoom-out&quot;}">
+                <iframe class="bg-youtube loaded" data-youtube-embed="{&quot;videoId&quot;:&quot;NXvgDydGjy0&quot;,&quot;startSeconds&quot;:1,&quot;endSeconds&quot;:16}" style="width: 1721px; height: 968.062px; min-height: 737px; min-width: 1310.22px;" frameborder="0" allowfullscreen="" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" title="Blue Lagoon Geothermal Spa in Iceland" width="640" height="360" src="./spa&amp;bath_files/NXvgDydGjy0.html" id="widget2"></iframe>
+              </div><!--/.bg-holder-->
+              <div class="container">
+                <div class="row h-banner-full align-items-center">
+                  <div class="col">
+                    <h5 class="text-white fs-9 fs-sm-8 mb-4 text-uppercase" data-zanim-xs="{&quot;delay&quot;:1.2}" style="transform: translate(0px, 0px); opacity: 1;">Welcome to </h5>
+                    <h1 class="text-white fs-6 fs-sm-4 fw-bold ls-3 text-uppercase"> <span class="d-block" data-zanim-xs="{&quot;delay&quot;:1.3}" style="transform: translate(0px, 0px); opacity: 1;">Nirvana </span><span class="d-block" data-zanim-xs="{&quot;delay&quot;:1.4}" style="transform: translate(0px, 0px); opacity: 1;">Liveliness </span></h1>
+                    <div class="text-white overflow-hidden" data-zanim-xs="{&quot;delay&quot;:1.5}" style="transform: translate(0px, 0px); opacity: 1;"> <a class="fw-medium fs-9 fs-sm-7 text-white" href="https://prium.github.io/nirvana/v2.0.0/#!">Retreats</a><span class="px-2 fs-10 d-inline-block">●</span><a class="fw-medium fs-9 fs-sm-7 text-white" href="https://prium.github.io/nirvana/v2.0.0/#!">Adventure</a><span class="px-2 fs-10 d-inline-block">●</span><a class="fw-medium fs-9 fs-sm-7 text-white" href="https://prium.github.io/nirvana/v2.0.0/#!">Spa</a></div><a class="btn rounded-capsule btn-primary mt-5" href="https://prium.github.io/nirvana/v2.0.0/#!" data-zanim-xs="{&quot;delay&quot;:1.7}" style="transform: translate(0px, 0px); opacity: 1;">Our Story </a>
+                  </div>
+                </div><a class="btn-down" href="https://prium.github.io/nirvana/v2.0.0/#target-down" data-offset="84" data-zanim-xs="{&quot;delay&quot;:2.3}" style="transform: translate(-50%, 0%); opacity: 1;"></a>
+              </div><!-- end of .container-->
+            </section><!-- <section> close ============================--><!-- ============================================-->
+
+          </div>
+          <div id="target-down"></div>
+
+          <!-- ============================================--><!-- <section> begin ============================-->
+          <section class="text-center">
+            <div class="container">
+              <div class="row justify-content-center">
+                <div class="col-lg-10">
+                  <div class="border p-3 p-sm-6 rounded-3">
+                    <h4> <span class="d-block">A sanctuary of escape</span><span class="d-block">to help people reset themselves</span></h4>
+                    <hr class="short">
+                    <p class="mb-0">A luxury yoga, fitness &amp; wellbeing holiday, focusing on your health in Mind, Body and Skin. Remember to take care of yourself, you cannot pour from an empty cup. Harmonize your body, mind &amp; soul with yoga. Take yoga beyond the Mat Training. Do your practice and peace will come.</p>
+                  </div>
+                </div>
+              </div>
+            </div><!-- end of .container-->
+          </section><!-- <section> close ============================--><!-- ============================================-->
+
+
+
+          <!-- ============================================--><!-- <section> begin ============================-->
+          <section class="pt-0 text-center">
+            <div class="container">
+              <div class="row justify-content-center">
+                <div class="col-12 mb-3 mb-sm-5">
+                  <h3>Retreats Coming </h3>
+                  <hr class="short">
+                </div>
+                <div class="col-sm-8 col-md-6 col-xl-4">
+                  <div class="swiper-theme-container theme-slider mb-5" data-swiper-theme-container="data-swiper-theme-container">
+                    <div class="swiper swiper-fade swiper-initialized swiper-horizontal swiper-watch-progress swiper-backface-hidden" data-swiper="{&quot;autoplay&quot;:{&quot;delay&quot;:5000,&quot;disableOnInteraction&quot;:false},&quot;spaceBetween&quot;:30,&quot;loop&quot;:true,&quot;loopedSlides&quot;:5,&quot;slideToClickedSlide&quot;:true,&quot;slidesPerView&quot;:1,&quot;effect&quot;:&quot;fade&quot;}">
+                      <div class="swiper-wrapper" id="swiper-wrapper-b4de94c374f0c105a" aria-live="off" style="transition-duration: 0ms; transition-delay: 0ms;">
+                        
+                        
+                      <div class="swiper-slide swiper-slide-next swiper-slide-prev" role="group" aria-label="2 / 2" data-swiper-slide-index="1" style="width: 332px; opacity: 1; transform: translate3d(0px, 0px, 0px); transition-duration: 0ms;"> <img class="rounded-3" src="./spa&amp;bath_files/retreats-3.jpg" alt=""></div><div class="swiper-slide swiper-slide-visible swiper-slide-fully-visible swiper-slide-active" role="group" aria-label="1 / 2" data-swiper-slide-index="0" style="width: 332px; opacity: 1; transform: translate3d(-332px, 0px, 0px); transition-duration: 0ms;"> <img class="rounded-3" src="./spa&amp;bath_files/retreats-4.jpg" alt=""></div></div>
+                      <div class="swiper-nav">
+                        <div class="swiper-button-next swiper-button-white" tabindex="0" role="button" aria-label="Next slide" aria-controls="swiper-wrapper-b4de94c374f0c105a" fdprocessedid="mo4fr"></div>
+                        <div class="swiper-button-prev swiper-button-white" tabindex="0" role="button" aria-label="Previous slide" aria-controls="swiper-wrapper-b4de94c374f0c105a" fdprocessedid="975i4"></div>
+                      </div>
+                    <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>
+                  </div>
+                  <div> <a href="https://prium.github.io/nirvana/v2.0.0/#!">
+                      <h5 class="text-primary fw-semi-bold mb-0 text-uppercase">yoga &amp; fitness </h5>
+                    </a><a href="https://prium.github.io/nirvana/v2.0.0/#!">
+                      <h6 class="fs-9 text-400 mt-2 text-uppercase">march 2018</h6>
+                    </a>
+                    <p class="px-2"> Always control what goes inside. Just balance your mind and body with Yoga. Create the healthy living for yourself.</p><a class="btn btn-link fs-10" href="https://prium.github.io/nirvana/v2.0.0/#!">Learn more <svg class="svg-inline--fa fa-angle-right fa-w-8" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="angle-right" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512" data-fa-i2svg=""><path fill="currentColor" d="M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z"></path></svg><!-- <span class="fas fa-angle-right"></span> Font Awesome fontawesome.com --></a>
+                  </div>
+                </div>
+                <div class="col-sm-8 col-md-6 col-xl-4 mt-7 mt-md-0">
+                  <div class="swiper-theme-container theme-slider mb-5" data-swiper-theme-container="data-swiper-theme-container">
+                    <div class="swiper swiper-fade swiper-initialized swiper-horizontal swiper-watch-progress swiper-backface-hidden" data-swiper="{&quot;autoplay&quot;:{&quot;delay&quot;:5000,&quot;disableOnInteraction&quot;:false},&quot;spaceBetween&quot;:30,&quot;loop&quot;:true,&quot;loopedSlides&quot;:5,&quot;slideToClickedSlide&quot;:true,&quot;slidesPerView&quot;:1,&quot;effect&quot;:&quot;fade&quot;}">
+                      <div class="swiper-wrapper" id="swiper-wrapper-f69c514109ca33797" aria-live="off" style="transition-duration: 0ms; transition-delay: 0ms;">
+                        
+                        
+                      <div class="swiper-slide swiper-slide-next swiper-slide-prev" role="group" aria-label="1 / 2" data-swiper-slide-index="0" style="width: 332px; opacity: 1; transform: translate3d(0px, 0px, 0px); transition-duration: 0ms;"> <img class="rounded-3" src="./spa&amp;bath_files/retreats-2.jpg" alt=""></div><div class="swiper-slide swiper-slide-visible swiper-slide-fully-visible swiper-slide-active" role="group" aria-label="2 / 2" data-swiper-slide-index="1" style="width: 332px; opacity: 1; transform: translate3d(-332px, 0px, 0px); transition-duration: 0ms;"> <img class="rounded-3" src="./spa&amp;bath_files/retreats-5.png" alt=""></div></div>
+                      <div class="swiper-nav">
+                        <div class="swiper-button-next swiper-button-white" tabindex="0" role="button" aria-label="Next slide" aria-controls="swiper-wrapper-f69c514109ca33797" fdprocessedid="cpbfuf"></div>
+                        <div class="swiper-button-prev swiper-button-white" tabindex="0" role="button" aria-label="Previous slide" aria-controls="swiper-wrapper-f69c514109ca33797" fdprocessedid="yc36s"></div>
+                      </div>
+                    <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>
+                  </div>
+                  <div> <a href="https://prium.github.io/nirvana/v2.0.0/#!">
+                      <h5 class="text-primary fw-semi-bold mb-0 text-uppercase">herbal medicine</h5>
+                    </a><a href="https://prium.github.io/nirvana/v2.0.0/#!">
+                      <h6 class="fs-9 text-400 mt-2 text-uppercase">april 2018</h6>
+                    </a>
+                    <p class="px-2"> The practice of naturopathic medicine includes modern, traditional, scientific, and empirical methods. Come for a healthy life.</p><a class="btn btn-link fs-10" href="https://prium.github.io/nirvana/v2.0.0/#!">Learn more <svg class="svg-inline--fa fa-angle-right fa-w-8" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="angle-right" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512" data-fa-i2svg=""><path fill="currentColor" d="M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z"></path></svg><!-- <span class="fas fa-angle-right"></span> Font Awesome fontawesome.com --></a>
+                  </div>
+                </div>
+                <div class="col-sm-8 col-md-6 col-xl-4 mt-7 mt-xl-0">
+                  <div class="swiper-theme-container theme-slider mb-5" data-swiper-theme-container="data-swiper-theme-container">
+                    <div class="swiper swiper-fade swiper-initialized swiper-horizontal swiper-watch-progress swiper-backface-hidden" data-swiper="{&quot;autoplay&quot;:{&quot;delay&quot;:5000,&quot;disableOnInteraction&quot;:false},&quot;spaceBetween&quot;:30,&quot;loop&quot;:true,&quot;loopedSlides&quot;:5,&quot;slideToClickedSlide&quot;:true,&quot;slidesPerView&quot;:1,&quot;effect&quot;:&quot;fade&quot;}">
+                      <div class="swiper-wrapper" id="swiper-wrapper-9183bd622e3139bb" aria-live="off" style="transition-duration: 0ms; transition-delay: 0ms;">
+                        
+                        
+                      <div class="swiper-slide swiper-slide-next swiper-slide-prev" role="group" aria-label="1 / 2" data-swiper-slide-index="0" style="width: 332px; opacity: 1; transform: translate3d(0px, 0px, 0px); transition-duration: 0ms;"> <img class="rounded-3" src="./spa&amp;bath_files/retreats-1.jpg" alt=""></div><div class="swiper-slide swiper-slide-visible swiper-slide-fully-visible swiper-slide-active" role="group" aria-label="2 / 2" data-swiper-slide-index="1" style="width: 332px; opacity: 1; transform: translate3d(-332px, 0px, 0px); transition-duration: 0ms;"> <img class="rounded-3" src="./spa&amp;bath_files/retreats-6.png" alt=""></div></div>
+                      <div class="swiper-nav">
+                        <div class="swiper-button-next swiper-button-white" tabindex="0" role="button" aria-label="Next slide" aria-controls="swiper-wrapper-9183bd622e3139bb" fdprocessedid="h7ufuc"></div>
+                        <div class="swiper-button-prev swiper-button-white" tabindex="0" role="button" aria-label="Previous slide" aria-controls="swiper-wrapper-9183bd622e3139bb" fdprocessedid="an347m"></div>
+                      </div>
+                    <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>
+                  </div>
+                  <div> <a href="https://prium.github.io/nirvana/v2.0.0/#!">
+                      <h5 class="text-primary fw-semi-bold mb-0 text-uppercase">guided surfing trip</h5>
+                    </a><a href="https://prium.github.io/nirvana/v2.0.0/#!">
+                      <h6 class="fs-9 text-400 mt-2 text-uppercase">may 2018</h6>
+                    </a>
+                    <p class="px-2"> Free your inner adventure with guided surfing trip. Enjoy the thrill, take the challenge and refresh your mind in the sea.</p><a class="btn btn-link fs-10" href="https://prium.github.io/nirvana/v2.0.0/#!">Learn more <svg class="svg-inline--fa fa-angle-right fa-w-8" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="angle-right" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512" data-fa-i2svg=""><path fill="currentColor" d="M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z"></path></svg><!-- <span class="fas fa-angle-right"></span> Font Awesome fontawesome.com --></a>
+                  </div>
+                </div>
+              </div>
+            </div><!-- end of .container-->
+          </section><!-- <section> close ============================--><!-- ============================================-->
+
+
+
+          <!-- ============================================--><!-- <section> begin ============================-->
+          <section class="has-parallax text-center py-0" data-zanim-timeline="{}">
+            <div class="bg-holder overlay" style="background-image: url(&quot;assets/images/features-1.jpg&quot;); transform: translate3d(0px, 684px, 0px);" data-parallax="data-parallax" data-rellax-speed="-3"></div><!--/.bg-holder-->
+            <div class="container">
+              <div class="row justify-content-center justify-content-lg-end align-items-center py-9">
+                <div class="col-md-9 col-lg-7">
+                  <h2 class="fw-bold fs-md-4 text-white" data-zanim-xs="{&quot;delay&quot;:0}" style="transform: translate(0px, 0px); opacity: 1;">Spa &amp; Bath </h2>
+                  <p class="lead text-white px-lg-5" data-zanim-xs="{&quot;delay&quot;:0.1}" style="transform: translate(0px, 0px); opacity: 1;">We offer the ideal atmosphere for relaxation and personal care. A real treat for the body and mind that will help you to balance the effects of work and stress.</p><a class="btn btn-outline-white rounded-capsule mt-4" href="https://prium.github.io/nirvana/v2.0.0/#!" data-zanim-xs="{&quot;delay&quot;:0.2}" style="transform: translate(0px, 0px); opacity: 1;"> learn more </a>
+                </div>
+              </div>
+            </div><!-- end of .container-->
+          </section><!-- <section> close ============================--><!-- ============================================-->
+
+
+
+          <!-- ============================================--><!-- <section> begin ============================-->
+          <section class="py-lg-9" data-zanim-timeline="{}">
+            <div class="container">
+              <div class="row align-items-center">
+                <div class="col-md-6 order-md-2">
+                  <div class="swiper-theme-container theme-slider mt-3 mt-lg-0 mx-2" data-swiper-theme-container="data-swiper-theme-container">
+                    <div class="swiper swiper-fade swiper-initialized swiper-horizontal swiper-watch-progress swiper-backface-hidden" data-swiper="{&quot;autoplay&quot;:{&quot;delay&quot;:5000,&quot;disableOnInteraction&quot;:false},&quot;spaceBetween&quot;:30,&quot;loop&quot;:true,&quot;loopedSlides&quot;:5,&quot;slideToClickedSlide&quot;:true,&quot;slidesPerView&quot;:1,&quot;effect&quot;:&quot;fade&quot;}">
+                      <div class="swiper-wrapper" id="swiper-wrapper-bbfd44d9d7df3301" aria-live="off" style="transition-duration: 0ms; transition-delay: 0ms;">
+                        
+                        
+                        
+                      <div class="swiper-slide swiper-slide-next" role="group" aria-label="3 / 3" data-swiper-slide-index="2" style="width: 506px; opacity: 1; transform: translate3d(0px, 0px, 0px); transition-duration: 0ms;"> <img class="rounded-3" src="./spa&amp;bath_files/features-6.jpg" alt=""></div><div class="swiper-slide swiper-slide-prev" role="group" aria-label="1 / 3" data-swiper-slide-index="0" style="width: 506px; opacity: 1; transform: translate3d(-506px, 0px, 0px); transition-duration: 0ms;"> <img class="rounded-3" src="./spa&amp;bath_files/features-4.jpg" alt=""></div><div class="swiper-slide swiper-slide-visible swiper-slide-fully-visible swiper-slide-active" role="group" aria-label="2 / 3" data-swiper-slide-index="1" style="width: 506px; opacity: 1; transform: translate3d(-1012px, 0px, 0px); transition-duration: 0ms;"> <img class="rounded-3" src="./spa&amp;bath_files/features-5.jpg" alt=""></div></div>
+                      <div class="swiper-nav">
+                        <div class="swiper-button-next swiper-button-white" tabindex="0" role="button" aria-label="Next slide" aria-controls="swiper-wrapper-bbfd44d9d7df3301" fdprocessedid="8pkbc2"></div>
+                        <div class="swiper-button-prev swiper-button-white" tabindex="0" role="button" aria-label="Previous slide" aria-controls="swiper-wrapper-bbfd44d9d7df3301" fdprocessedid="lt8a2r"></div>
+                      </div>
+                    <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>
+                  </div>
+                </div>
+                <div class="col-md-6 pe-lg-8 mt-4 mt-md-0">
+                  <h2 class="fs-6" data-zanim-xs="{&quot;delay&quot;:0.2}" style="transform: translate(0px, 0px); opacity: 1;">Rest &amp; Relax</h2>
+                  <p data-zanim-xs="{&quot;delay&quot;:0.4}" style="transform: translate(0px, 0px); opacity: 1;">Every now and then go away, have a little relaxation, for when you come back to your work your judgment will be surer. Go some distance away because then the work appears smaller and more of it can be taken in at a glance and a lack of harmony and proportion is more readily seen.</p><a class="btn btn-outline-primary rounded-capsule mt-4" href="https://prium.github.io/nirvana/v2.0.0/#!" data-zanim-xs="{&quot;delay&quot;:0.3}" style="transform: translate(0px, 0px); opacity: 1;"> learn more</a>
+                </div>
+              </div>
+            </div><!-- end of .container-->
+          </section><!-- <section> close ============================--><!-- ============================================-->
+
+
+
+          <!-- ============================================--><!-- <section> begin ============================-->
+          <section class="has-parallax text-center py-9" data-zanim-timeline="{}">
+            <div class="bg-holder overlay" style="background-image: url(&quot;assets/images/features-2.jpg&quot;); transform: translate3d(0px, 400px, 0px);" data-parallax="data-parallax" data-rellax-speed="-3"></div><!--/.bg-holder-->
+            <div class="container">
+              <div class="row justify-content-center justify-content-lg-end align-items-center">
+                <div class="col-md-9 col-lg-7">
+                  <h2 class="fw-bold fs-md-4 text-white" data-zanim-xs="{&quot;delay&quot;:0.2}" style="transform: translate(0px, 0px); opacity: 1;">Explore Nature </h2>
+                  <p class="lead text-white px-lg-5" data-zanim-xs="{&quot;delay&quot;:0.3}" style="transform: translate(0px, 0px); opacity: 1;">When all the world appears to be in a tumult, and nature itself is feeling the assault of climate change, the seasons retain their essential rhythm.</p><a class="btn btn-outline-white rounded-capsule mt-4" href="https://prium.github.io/nirvana/v2.0.0/#!" data-zanim-xs="{&quot;delay&quot;:0.4}" style="transform: translate(0px, 0px); opacity: 1;"> learn more </a>
+                </div>
+              </div>
+            </div><!-- end of .container-->
+          </section><!-- <section> close ============================--><!-- ============================================-->
+
+
+
+          <!-- ============================================--><!-- <section> begin ============================-->
+          <section class="py-lg-9" data-zanim-timeline="{}">
+            <div class="container">
+              <div class="row align-items-center">
+                <div class="col-md-6 order-md-2">
+                  <div class="swiper-theme-container theme-slider mt-3 mt-lg-0 mx-2" data-swiper-theme-container="data-swiper-theme-container">
+                    <div class="swiper swiper-fade swiper-initialized swiper-horizontal swiper-watch-progress swiper-backface-hidden" data-swiper="{&quot;autoplay&quot;:{&quot;delay&quot;:5000,&quot;disableOnInteraction&quot;:false},&quot;spaceBetween&quot;:30,&quot;loop&quot;:true,&quot;loopedSlides&quot;:5,&quot;slideToClickedSlide&quot;:true,&quot;slidesPerView&quot;:1,&quot;effect&quot;:&quot;fade&quot;}">
+                      <div class="swiper-wrapper" id="swiper-wrapper-dc80106c0e45ae52a" aria-live="off" style="transition-duration: 0ms; transition-delay: 0ms;">
+                        
+                        
+                        
+                      <div class="swiper-slide swiper-slide-next" role="group" aria-label="1 / 3" data-swiper-slide-index="0" style="width: 506px; opacity: 1; transform: translate3d(0px, 0px, 0px); transition-duration: 0ms;"> <img class="rounded-3" src="./spa&amp;bath_files/features-7.jpg" alt=""></div><div class="swiper-slide swiper-slide-prev" role="group" aria-label="2 / 3" data-swiper-slide-index="1" style="width: 506px; opacity: 1; transform: translate3d(-506px, 0px, 0px); transition-duration: 0ms;"> <img class="rounded-3" src="./spa&amp;bath_files/features-8.jpg" alt=""></div><div class="swiper-slide swiper-slide-visible swiper-slide-fully-visible swiper-slide-active" role="group" aria-label="3 / 3" data-swiper-slide-index="2" style="width: 506px; opacity: 1; transform: translate3d(-1012px, 0px, 0px); transition-duration: 0ms;"> <img class="rounded-3" src="./spa&amp;bath_files/features-9.jpg" alt=""></div></div>
+                      <div class="swiper-nav">
+                        <div class="swiper-button-next swiper-button-white" tabindex="0" role="button" aria-label="Next slide" aria-controls="swiper-wrapper-dc80106c0e45ae52a"></div>
+                        <div class="swiper-button-prev swiper-button-white" tabindex="0" role="button" aria-label="Previous slide" aria-controls="swiper-wrapper-dc80106c0e45ae52a"></div>
+                      </div>
+                    <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>
+                  </div>
+                </div>
+                <div class="col-md-6 pe-lg-8 mt-4 mt-md-0">
+                  <h2 class="fs-6" data-zanim-xs="{&quot;delay&quot;:0.2}" style="transform: translate(0px, 0px); opacity: 1;">Organic Cuisine</h2>
+                  <p data-zanim-xs="{&quot;delay&quot;:0.3}" style="transform: translate(0px, 0px); opacity: 1;">Nature has always cared for us. So why not taking that care? Come to Nirvana and taste our organic cuisine today. Organic foods may have higher nutritional value than conventional food that help building your good health.</p><a class="btn btn-outline-primary rounded-capsule mt-4" href="https://prium.github.io/nirvana/v2.0.0/#!" data-zanim-xs="{&quot;delay&quot;:0.4}" style="transform: translate(0px, 0px); opacity: 1;"> learn more</a>
+                </div>
+              </div>
+            </div><!-- end of .container-->
+          </section><!-- <section> close ============================--><!-- ============================================-->
+
+
+
+          <!-- ============================================--><!-- <section> begin ============================-->
+          <section class="has-parallax text-center py-9" data-zanim-timeline="{}">
+            <div class="bg-holder overlay" style="background-image: url(&quot;assets/images/cta.jpg&quot;); transform: translate3d(0px, 122px, 0px);" data-parallax="data-parallax" data-rellax-speed="-3"></div><!--/.bg-holder-->
+            <div class="container">
+              <div class="row justify-content-center align-items-center">
+                <div class="col-11 col-md-10 col-xl-9">
+                  <h1 class="fs-5 fs-md-4 text-white" data-zanim-xs="{&quot;delay&quot;:0.3}" style="transform: translate(0px, 0px); opacity: 1;">Reserve Your Adventure </h1>
+                  <p class="fw-bold text-white px-lg-5" data-zanim-xs="{&quot;delay&quot;:0.4}" style="transform: translate(0px, 0px); opacity: 1;">Discover the world you've never seen, explore the horizon you never reached, unravel the mystery of nature. Reserve your life changing adventurous journey today with Nirvana along with<br class="d-none d-xl-block">Spa, Yoga and more healthy retreats.</p><a class="btn btn-outline-white btn-lg rounded-capsule mt-4" href="https://prium.github.io/nirvana/v2.0.0/#!" data-zanim-xs="{&quot;delay&quot;:0.5}" style="transform: translate(0px, 0px); opacity: 1;"> inquire</a>
+                </div>
+              </div>
+            </div><!-- end of .container-->
+          </section><!-- <section> close ============================--><!-- ============================================-->
+
+
+
+          <!-- ============================================--><!-- <section> begin ============================-->
+          <section class="bg-100 overflow-hidden" data-zanim-timeline="{}">
+            <div class="container">
+              <div class="row justify-content-center">
+                <div class="col-12 text-center">
+                  <div class="overflow-hidden">
+                    <h3 data-zanim-xs="{&quot;delay&quot;:0.2}" style="transform: translate(0px, 0px); opacity: 1;">Testimonials</h3>
+                  </div>
+                  <hr class="short">
+                </div>
+                <div class="col-lg-10">
+                  <div class="swiper-theme-container swiper-slider" data-swiper-theme-container="data-swiper-theme-container">
+                    <div class="swiper swiper-initialized swiper-horizontal swiper-backface-hidden" data-swiper="{&quot;pagination&quot;:true,&quot;autoplay&quot;:{&quot;delay&quot;:8000,&quot;disableOnInteraction&quot;:false},&quot;spaceBetween&quot;:30,&quot;loop&quot;:true,&quot;loopedSlides&quot;:5,&quot;slideToClickedSlide&quot;:true,&quot;slidesPerView&quot;:1}">
+                      <div class="swiper-wrapper" id="swiper-wrapper-4b2e146da2722237" aria-live="off" style="transition-duration: 0ms; transform: translate3d(-1864px, 0px, 0px); transition-delay: 0ms;">
+                        
+                        
+                        
+                      <div class="swiper-slide swiper-slide-next" role="group" aria-label="3 / 3" data-swiper-slide-index="2" style="width: 902px; margin-right: 30px;">
+                          <div class="row align-items-center justify-content-center py-6">
+                            <div class="col-8 col-md-3"> <img class="rounded-circle" src="./spa&amp;bath_files/fitness-3.jpg" alt=""></div>
+                            <div class="col-12 col-md-8 mt-4 mt-md-0">
+                              <p>We live in a wonderful world that is full of beauty, charm and adventure. There is no end to the adventures that we can have if only we seek them with our eyes open.</p>
+                              <h6 class="fw-semi-bold fs-9 mt-4 mb-0 text-uppercase">Natasha Romannof</h6>
+                              <p class="fs-10 fw-light mb-0 text-500">Marketing Manager</p>
+                            </div>
+                          </div>
+                        </div><div class="swiper-slide swiper-slide-prev" role="group" aria-label="1 / 3" data-swiper-slide-index="0" style="width: 902px; margin-right: 30px;">
+                          <div class="row align-items-center justify-content-center py-6">
+                            <div class="col-8 col-md-3"> <img class="rounded-circle" src="./spa&amp;bath_files/fitness-1.jpg" alt=""></div>
+                            <div class="col-12 col-md-8 mt-4 mt-md-0">
+                              <p>Change is not something that we should fear. Rather, it is something that we should welcome. For without change, nothing in this world would ever grow or blossom.</p>
+                              <h6 class="fw-semi-bold fs-9 mt-4 mb-0 text-uppercase">John Doe</h6>
+                              <p class="fs-10 fw-light mb-0 text-500">Marketing Manager</p>
+                            </div>
+                          </div>
+                        </div><div class="swiper-slide swiper-slide-active" role="group" aria-label="2 / 3" data-swiper-slide-index="1" style="width: 902px; margin-right: 30px;">
+                          <div class="row align-items-center justify-content-center py-6">
+                            <div class="col-8 col-md-3"> <img class="rounded-circle" src="./spa&amp;bath_files/fitness-2.jpg" alt=""></div>
+                            <div class="col-12 col-md-8 mt-4 mt-md-0">
+                              <p>Keep close to Nature's heart... and break clear away, once in awhile, and climb a mountain or spend a week in the woods. Wash your spirit clean.</p>
+                              <h6 class="fw-semi-bold fs-9 mt-4 mb-0 text-uppercase">Jack Foster</h6>
+                              <p class="fs-10 fw-light mb-0 text-500">Marketing Manager</p>
+                            </div>
+                          </div>
+                        </div></div>
+                      <div class="d-md-none">
+                        <div class="swiper-pagination swiper-pagination-clickable swiper-pagination-bullets swiper-pagination-horizontal"><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 1"></span><span class="swiper-pagination-bullet swiper-pagination-bullet-active" tabindex="0" role="button" aria-label="Go to slide 2" aria-current="true"></span><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 3"></span></div>
+                      </div>
+                    <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>
+                    <div class="d-none d-md-block">
+                      <div class="swiper-nav">
+                        <div class="swiper-button-next swiper-button-white" tabindex="0" role="button" aria-label="Next slide" aria-controls="swiper-wrapper-4b2e146da2722237"></div>
+                        <div class="swiper-button-prev swiper-button-white" tabindex="0" role="button" aria-label="Previous slide" aria-controls="swiper-wrapper-4b2e146da2722237"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div><!-- end of .container-->
+          </section><!-- <section> close ============================--><!-- ============================================-->
+
+
+
+          <!-- ============================================--><!-- <section> begin ============================-->
+          <section>
+            <div class="container">
+              <div class="row justify-content-center">
+                <div class="col-12 col-lg-9 col-xl-8 text-center" data-zanim-timeline="{}">
+                  <div class="overflow-hidden">
+                    <h3 data-zanim-xs="{&quot;delay&quot;:0.2}" style="transform: translate(0px, 0px); opacity: 1;">As featured in</h3>
+                  </div>
+                  <hr class="short">
+                  <div class="swiper-theme-container swiper-slider mt-3 mt-lg-5" data-swiper-theme-container="data-swiper-theme-container">
+                    <div class="swiper swiper-initialized swiper-horizontal swiper-backface-hidden" data-swiper="{&quot;pagination&quot;:true,&quot;autoplay&quot;:true,&quot;spaceBetween&quot;:20,&quot;loop&quot;:true,&quot;loopedSlides&quot;:5,&quot;slideToClickedSlide&quot;:true,&quot;breakpoints&quot;:{&quot;0&quot;:{&quot;slidesPerView&quot;:2},&quot;768&quot;:{&quot;slidesPerView&quot;:3},&quot;1200&quot;:{&quot;slidesPerView&quot;:4}}}">
+                      <div class="swiper-wrapper pb-4 mb-4" id="swiper-wrapper-bfe403d65ee66562" aria-live="off" style="transition-duration: 0ms; transform: translate3d(-732px, 0px, 0px); transition-delay: 0ms;">
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                      <div class="swiper-slide" role="group" aria-label="6 / 8" data-swiper-slide-index="5" style="width: 163px; margin-right: 20px;">
+                          <div class="border border-400 rounded-3"><img class="rounded-3" src="./spa&amp;bath_files/3333.jpg" alt=""></div>
+                        </div><div class="swiper-slide" role="group" aria-label="7 / 8" data-swiper-slide-index="6" style="width: 163px; margin-right: 20px;">
+                          <div class="border border-400 rounded-3"><img class="rounded-3" src="./spa&amp;bath_files/777.jpg" alt=""></div>
+                        </div><div class="swiper-slide" role="group" aria-label="8 / 8" data-swiper-slide-index="7" style="width: 163px; margin-right: 20px;">
+                          <div class="border border-400 rounded-3"><img class="rounded-3" src="./spa&amp;bath_files/4444.jpg" alt=""></div>
+                        </div><div class="swiper-slide swiper-slide-prev" role="group" aria-label="1 / 8" data-swiper-slide-index="0" style="width: 163px; margin-right: 20px;">
+                          <div class="border border-400 rounded-3"><img class="rounded-3" src="./spa&amp;bath_files/111.jpg" alt=""></div>
+                        </div><div class="swiper-slide swiper-slide-active" role="group" aria-label="2 / 8" data-swiper-slide-index="1" style="width: 163px; margin-right: 20px;">
+                          <div class="border border-400 rounded-3"><img class="rounded-3" src="./spa&amp;bath_files/1111.jpg" alt=""></div>
+                        </div><div class="swiper-slide swiper-slide-next" role="group" aria-label="3 / 8" data-swiper-slide-index="2" style="width: 163px; margin-right: 20px;">
+                          <div class="border border-400 rounded-3"><img class="rounded-3" src="./spa&amp;bath_files/333.jpg" alt=""></div>
+                        </div><div class="swiper-slide" role="group" aria-label="4 / 8" data-swiper-slide-index="3" style="width: 163px; margin-right: 20px;">
+                          <div class="border border-400 rounded-3"><img class="rounded-3" src="./spa&amp;bath_files/2222.jpg" alt=""></div>
+                        </div><div class="swiper-slide" role="group" aria-label="5 / 8" data-swiper-slide-index="4" style="width: 163px; margin-right: 20px;">
+                          <div class="border border-400 rounded-3"><img class="rounded-3" src="./spa&amp;bath_files/555.jpg" alt=""></div>
+                        </div></div>
+                      <div class="swiper-pagination swiper-pagination-clickable swiper-pagination-bullets swiper-pagination-horizontal"><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 1"></span><span class="swiper-pagination-bullet swiper-pagination-bullet-active" tabindex="0" role="button" aria-label="Go to slide 2" aria-current="true"></span><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 3"></span><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 4"></span><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 5"></span><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 6"></span><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 7"></span><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 8"></span></div>
+                    <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>
+                  </div>
+                </div>
+              </div>
+            </div><!-- end of .container-->
+          </section><!-- <section> close ============================--><!-- ============================================-->
+
+          <footer class="py-6 py-md-8 bg-primary text-center" data-zanim-timeline="{}">
+            <div class="container">
+              <div class="row">
+                <div class="col-12" data-zanim-xs="{&quot;delay&quot;:0}" style="transform: translate(0px, 0px); opacity: 1;"> <a class="text-white mx-3" href="https://prium.github.io/nirvana/v2.0.0/#!">About</a><a class="text-white mx-3" href="https://prium.github.io/nirvana/v2.0.0/#!">Connect</a><a class="text-white mx-3" href="https://prium.github.io/nirvana/v2.0.0/#!">Terms &amp; Products </a></div>
+                <div class="col-12 my-3" data-zanim-xs="{&quot;delay&quot;:0.1}" style="transform: translate(0px, 0px); opacity: 1;"> <img src="./spa&amp;bath_files/logo-nirvana-white.png" alt="" style="width: 15%"></div>
+                <div class="col-12 font-sans-serif" data-zanim-xs="{&quot;delay&quot;:0.2}" style="transform: translate(0px, 0px); opacity: 1;">
+                  <div class="fs-9 text-white mb-3"> <a class="text-white" href="tel:(212)123-4567"> (212) 123-4567 </a><span class="px-3 d-none d-md-inline-block">●</span><br class="d-block d-md-none"><span class="mt-4 mt-md-9">666 Unnamed ave, california </span><span class="px-3 d-none d-md-inline-block">●</span><br class="d-block d-md-none"><a class="text-white mt-4 mt-md-0" href="mailto:nirvana@abc.com">nirvana@abc.com</a></div>
+                </div>
+                <div class="col-12" data-zanim-xs="{&quot;delay&quot;:0.3}" style="transform: translate(0px, 0px); opacity: 1;">
+                  <form class="row align-items-center justify-content-center g-0 mt-5" method="POST" onsubmit="return false;">
+                    <div class="col-9 col-sm-6 col-md-5 px-sm-2 mb-3 mb-sm-0"> <input class="form-control" type="hidden" name="to" value="username@domain.extension"><input class="form-control border-white" type="email" placeholder="Enter Email Here" fdprocessedid="2p0phl"></div>
+                    <div class="d-sm-none"></div>
+                    <div class="col-9 col-sm-6 col-md-3 px-sm-2"><input class="btn btn-outline-white w-100 fs-9" type="submit" value="Submit" fdprocessedid="6n1ldf"></div>
+                  </form>
+                </div>
+                <div class="col-12" data-zanim-xs="{&quot;delay&quot;:0.4}" style="transform: translate(0px, 0px); opacity: 1;">
+                  <h6 class="fw-semi-bold text-500 mt-5 text-uppercase">powered by <a class="fw-bolder text-white p-0 text-decoration-underline" href="https://themewagon.com/">Themewagon</a></h6>
+                </div>
+              </div>
+            </div>
+          </footer>
+        </div>
+      </div>
+    </main><!-- ===============================================--><!--    End of Main Content--><!-- ===============================================-->
+
+
+
+    <!-- ===============================================--><!--    JavaScripts--><!-- ===============================================-->
+    <script type="text/javascript" id="www-widgetapi-script" src="./spa&amp;bath_files/www-widgetapi.js.download" async=""></script><script src="./spa&amp;bath_files/iframe_api"></script><script src="./spa&amp;bath_files/popper.min.js.download"></script>
+    <script src="./spa&amp;bath_files/bootstrap.min.js.download"></script>
+    <script src="./spa&amp;bath_files/is.min.js.download"></script>
+    <script src="./spa&amp;bath_files/swiper-bundle.min.js.download"> </script>
+    <script src="./spa&amp;bath_files/rellax.js.download"></script>
+    <script src="./spa&amp;bath_files/all.min.js.download"></script>
+    <script src="./spa&amp;bath_files/lodash.min.js.download"></script>
+    <script src="./spa&amp;bath_files/imagesloaded.pkgd.js.download"></script>
+    <script src="./spa&amp;bath_files/gsap.js.download"></script>
+    <script src="./spa&amp;bath_files/customEase.js.download"></script>
+    <script src="./spa&amp;bath_files/drawSVGPlugin.js.download"></script>
+    <script src="./spa&amp;bath_files/theme.js.download"></script>
+  
+
+<span id="PING_IFRAME_FORM_DETECTION" style="display: none;"></span><span id="PING_CONTENT_DLS_POPUP" style="display: none;"></span><div style="background-color: transparent; border: none; bottom: 15px; display: block; margin: 0px; opacity: 1; padding: 0px; position: fixed; right: 15px; z-index: 2147483647;"><template shadowrootmode="closed"><style>/*!
+ * 
+ *     MCAFEE RESTRICTED CONFIDENTIAL
+ *     Copyright (c) 2025 McAfee, LLC
+ *
+ *     The source code contained or described herein and all documents related
+ *     to the source code ("Material") are owned by McAfee or its
+ *     suppliers or licensors. Title to the Material remains with McAfee
+ *     or its suppliers and licensors. The Material contains trade
+ *     secrets and proprietary and confidential information of McAfee or its
+ *     suppliers and licensors. The Material is protected by worldwide copyright
+ *     and trade secret laws and treaty provisions. No part of the Material may
+ *     be used, copied, reproduced, modified, published, uploaded, posted,
+ *     transmitted, distributed, or disclosed in any way without McAfee's prior
+ *     express written permission.
+ *
+ *     No license under any patent, copyright, trade secret or other intellectual
+ *     property right is granted to or conferred upon you by disclosure or
+ *     delivery of the Materials, either expressly, by implication, inducement,
+ *     estoppel or otherwise. Any license under such intellectual property rights
+ *     must be expressed and approved by McAfee in writing.
+ *
+ */
+@font-face{font-family:"McAfeePoppins";src:url("../../../fonts/Poppins-Thin.ttf") format("truetype");font-weight:100;font-style:normal}@font-face{font-family:"McAfeePoppins";src:url("../../../fonts/Poppins-ThinItalic.ttf") format("truetype");font-weight:100;font-style:italic}@font-face{font-family:"McAfeePoppins";src:url("../../../fonts/Poppins-ExtraLight.ttf") format("truetype");font-weight:200;font-style:normal}@font-face{font-family:"McAfeePoppins";src:url("../../../fonts/Poppins-ExtraLightItalic.ttf") format("truetype");font-weight:200;font-style:italic}@font-face{font-family:"McAfeePoppins";src:url("../../../fonts/Poppins-Light.ttf") format("truetype");font-weight:300;font-style:normal}@font-face{font-family:"McAfeePoppins";src:url("../../../fonts/Poppins-LightItalic.ttf") format("truetype");font-weight:300;font-style:italic}@font-face{font-family:"McAfeePoppins";src:url("../../../fonts/Poppins-Regular.ttf") format("truetype");font-weight:400;font-style:normal}@font-face{font-family:"McAfeePoppins";src:url("../../../fonts/Poppins-Italic.ttf") format("truetype");font-weight:400;font-style:italic}@font-face{font-family:"McAfeePoppins";src:url("../../../fonts/Poppins-Medium.ttf") format("truetype");font-weight:500;font-style:normal}@font-face{font-family:"McAfeePoppins";src:url("../../../fonts/Poppins-MediumItalic.ttf") format("truetype");font-weight:500;font-style:italic}@font-face{font-family:"McAfeePoppins";src:url("../../../fonts/Poppins-SemiBold.ttf") format("truetype");font-weight:600;font-style:normal}@font-face{font-family:"McAfeePoppins";src:url("../../../fonts/Poppins-SemiBoldItalic.ttf") format("truetype");font-weight:600;font-style:italic}@font-face{font-family:"McAfeePoppins";src:url("../../../fonts/Poppins-Bold.ttf") format("truetype");font-weight:700;font-style:normal}@font-face{font-family:"McAfeePoppins";src:url("../../../fonts/Poppins-BoldItalic.ttf") format("truetype");font-weight:700;font-style:italic}@font-face{font-family:"McAfeePoppins";src:url("../../../fonts/Poppins-ExtraBold.ttf") format("truetype");font-weight:800;font-style:normal}@font-face{font-family:"McAfeePoppins";src:url("../../../fonts/Poppins-ExtraBoldItalic.ttf") format("truetype");font-weight:800;font-style:italic}@font-face{font-family:"McAfeePoppins";src:url("../../../fonts/Poppins-Black.ttf") format("truetype");font-weight:900;font-style:normal}@font-face{font-family:"McAfeePoppins";src:url("../../../fonts/Poppins-BlackItalic.ttf") format("truetype");font-weight:900;font-style:italic}*{border:0;box-sizing:border-box;font:inherit;font-family:"McAfeePoppins",Helvetica,Arial;font-size:100%;margin:0;padding:0;vertical-align:baseline;outline:none}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}html,body{background-color:#f5f6fa;font-family:"McAfeePoppins",Helvetica,Arial;line-height:1;height:100%;width:100%}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:after,blockquote:before,q:after,q:before{content:"";content:none}table{border-collapse:collapse;border-spacing:0}b{font-weight:bold}img{display:block}.dls__container{align-items:center;display:flex;margin:0 auto;margin-top:50px;position:relative}.dls__popup__expanded{align-items:center;overflow:hidden;border-radius:100px;cursor:pointer;display:flex;left:0;padding:15px;position:absolute;height:95px;width:383px;background-color:#fff;transition:all .3s ease-in-out}.dls__popup__expanded .dls__icon{height:65px;width:73px}.content{margin-left:12px}.content .content__images{display:flex;align-items:center;width:250px}.content .content__images .seperator__line{margin-left:5px;margin-right:10px}.content .content__images #dls_close_icon{cursor:pointer;margin-left:auto;margin-right:0px}.content p{font-family:"McAfeePoppins",Helvetica,Arial;font-weight:"400";font-size:14px;line-height:20px;margin-top:8px;color:#4258ff;width:250px;cursor:pointer}.shield{overflow:hidden;box-shadow:0px 2px 4px 0px rgba(33,41,52,.12),0px -1px 2px 0px rgba(0,0,0,.08);align-items:center;border-radius:100px;bottom:0;display:flex;height:95px;justify-content:center;position:absolute;right:0;width:383px;transition:all .3s ease-in-out}.shield__circle{display:flex;justify-content:center;align-items:center;width:55px;height:55px;background-color:#c01818;transition:all .6s ease-in-out .2s;z-index:1;opacity:0}
+
+/*# sourceMappingURL=../sourceMap/chrome/css/download_scan_popup.css.map*/</style><div class="dls__container">
+  <div class="shield" style="background: transparent; opacity: 0.1; display: none;">
+    <div class="shield__circle" style="opacity: 1;">
+      <img src="chrome-extension://fheoggkfdfchfphceeifdbepaooicaho/images/download_scan/mcafee_logo_white.svg?secret=rnt1bl" x-mcsrc="" id="dls_ballon_icon" x-mcsrcparsed="true">
+    </div>
+    <div class="dls__popup__expanded" style="opacity: 0;">
+      <img src="chrome-extension://fheoggkfdfchfphceeifdbepaooicaho/images/download_scan/download_scan_icon.svg?secret=rnt1bl" x-mcsrc="" class="dls__icon" x-mcsrcparsed="true">
+      <div class="content">
+        <div class="content__images">
+          <img src="chrome-extension://fheoggkfdfchfphceeifdbepaooicaho/images/download_scan/mcafee_logo_red.svg?secret=rnt1bl" x-mcsrc="" id="dls_mcafee_logo" x-mcsrcparsed="true">
+          <img src="chrome-extension://fheoggkfdfchfphceeifdbepaooicaho/images/download_scan/seperator_line.svg?secret=rnt1bl" x-mcsrc="" class="seperator__line" x-mcsrcparsed="true">
+          <img src="chrome-extension://fheoggkfdfchfphceeifdbepaooicaho/images/download_scan/webadvisor.svg?secret=rnt1bl" x-mcsrc="" x-mcsrcparsed="true">
+          <img src="chrome-extension://fheoggkfdfchfphceeifdbepaooicaho/images/download_scan/close-outline.svg?secret=rnt1bl" x-mcsrc="" id="dls_close_icon" x-mcsrcparsed="true">
+        </div>
+        <p id="download_scan_popup_expanded_descriptions">Your download's being scanned. We'll let you know if there's an issue.</p>
+      </div>
+    </div>
+  </div>
+</div><style>/*!
+ * 
+ *     MCAFEE RESTRICTED CONFIDENTIAL
+ *     Copyright (c) 2025 McAfee, LLC
+ *
+ *     The source code contained or described herein and all documents related
+ *     to the source code ("Material") are owned by McAfee or its
+ *     suppliers or licensors. Title to the Material remains with McAfee
+ *     or its suppliers and licensors. The Material contains trade
+ *     secrets and proprietary and confidential information of McAfee or its
+ *     suppliers and licensors. The Material is protected by worldwide copyright
+ *     and trade secret laws and treaty provisions. No part of the Material may
+ *     be used, copied, reproduced, modified, published, uploaded, posted,
+ *     transmitted, distributed, or disclosed in any way without McAfee's prior
+ *     express written permission.
+ *
+ *     No license under any patent, copyright, trade secret or other intellectual
+ *     property right is granted to or conferred upon you by disclosure or
+ *     delivery of the Materials, either expressly, by implication, inducement,
+ *     estoppel or otherwise. Any license under such intellectual property rights
+ *     must be expressed and approved by McAfee in writing.
+ *
+ */
+.mc-interactive-balloon{position:absolute;right:-50px;bottom:8px;box-shadow:rgba(0,0,0,.12) 0px 0px 10px;height:40px;width:40px;background:#1671ee;border-radius:20px;display:flex;justify-content:center;align-items:center}
+
+/*# sourceMappingURL=../sourceMap/chrome/css/interactive_balloon.css.map*/</style></template></div></body></html>

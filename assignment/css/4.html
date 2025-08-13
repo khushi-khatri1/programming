@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        ul{
+            list-style-type: none;
+        }
+        ul li{
+            font-style: italic;
+            color: rgb(16, 82, 16);;
+        }
+        ul li::before{
+            content:"*";
+            color: darkblue;
+        }
+
+        ol{
+            list-style-type: none;
+        }
+        ol li{
+            font-style: italic;
+            color: rgb(16, 82, 16);
+        }
+        ol li::before{
+            content:"->";
+            color: darkblue;
+        }
+
+    </style>
+</head>
+<body>
+    <h2>Unordered List</h2>
+    <ul>
+        <li>Apple</li>
+        <li>Banana</li>
+        <li>Orange</li>
+    </ul>
+
+    <h2>Ordered List</h2>
+    <ol>
+        <li>Wake up early</li>
+        <li>Exercise</li>
+        <li>Read a book</li>
+    </ol>
+</body>
+</html>

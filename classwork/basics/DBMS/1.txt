@@ -1,0 +1,193 @@
+For creating database :-
+  CREATE DATABASE mysql1;
+
+for creating table :-
+  CREATE TABLE signup(
+
+      id int PRIMARY KEY AUTO_INCREMENT,
+      name varchar(80),
+      email varchar(100) UNIQUE KEY,
+      mobile bigint UNIQUE KEY,
+      password_1 int
+
+  );
+
+for insert data into table :-
+  INSERT INTO signup (id,name,email,mobile,password_1) VALUES (1,"khushi","k2@gmail.com",1548762351,123);
+
+enter multiple data like this :-
+  INSERT INTO signup (name,email,mobile,password_1) VALUES ("Ashka","a6@gmail.com",152472351,456),
+  ("Dharmesh","d14@gmail.com",2546987542,789);
+
+After creating table you want to add column :-
+  ALTER TABLE signup ADD COLUMN city varchar(80);
+  UPDATE signup SET name="hetvi" where name="khushi";
+
+
+-> 3 terms for the delete
+1.) Delete 
+	delete single row
+	DELETE FROM `signup` WHERE id=1;
+
+2.) truncate 
+	delete whole table
+	TRUNCATE TABLE `login`;
+
+3.) drop
+	delete database
+	DROP DATABASE mysql1;
+
+-> LIKE operator
+	SELECT * FROM `signup` WHERE name LIKE 'a%';
+	SELECT * FROM `signup` WHERE mobile LIKE '%1';
+	SELECT * FROM `signup` WHERE name LIKE '_s%';
+
+-> Order by
+	SELECT * FROM `signup` ORDER BY password_1 ASC;
+	SELECT * FROM `signup` ORDER BY name DESC;
+
+
+
+-> Aggregate functions 
+1.) min
+	SELECT MIN(password_1) FROM signup;
+
+2.) max
+	SELECT MAX(password_1) FROM signup;
+    - if we want all details 
+	SELECT * 
+	FROM signup
+	WHERE password_1 = (SELECT MAX(password_1) FROM signup);
+
+3.) avg 
+	SELECT AVG(password_1) AS average_price FROM signup;
+
+4.) sum
+	SELECT sum(password_1) FROM signup;
+5.) count
+	SELECT count(password_1) FROM signup;
+
+
+-> Foreign Key 
+	CREATE TABLE lin(
+    	lid int PRIMARY KEY AUTO_INCREMENT ,
+    	lname varchar(20),
+    	laddress varchar(40),
+    	lmobile bigint,
+    	fid int,
+    	FOREIGN KEY (fid) REFERENCES signup(id)
+   	);
+	
+	INSERT INTO lin (lid,lname,laddress,lmobile,fid) VALUES (2,'jiya','vastral',12546565,2),
+ 	(3,'aastha','ghatlodiya',33546565,3);
+
+
+-> Joints 
+1.) full join
+	SELECT name,email,mobile,laddress,lmobile FROM signup FULL JOIN lin on id=fid;
+	
+2.) right join
+	SELECT signup.name,signup.email,signup.mobile,lin.laddress,lin.lmobile FROM signup RIGHT JOIN lin on signup.id=lin.fid;
+
+3.) left join 
+	SELECT signup.name,signup.email,signup.mobile,lin.laddress,lin.lmobile FROM signup LEFT JOIN lin on signup.id=lin.fid;
+
+4.) inner join : same data fetch 
+	SELECT signup.name,signup.email,signup.mobile,lin.laddress,lin.lmobile FROM signup INNER JOIN lin on signup.id=lin.fid;
+
+
+-> Procedure
+	DELIMITER $$ 
+	CREATE PROCEDURE myfun1()
+	BEGIN 
+
+	SELECT * FROM lin;
+
+	END;
+	
+	- to access this query
+		call myfun1()
+
+-> task :
+	CREATE DATABASE zomato;
+
+	CREATE TABLE restaurant(
+    	id int PRIMARY KEY AUTO_INCREMENT,
+    	item_name varchar(20),
+    	item_price int
+    	);
+
+	INSERT INTO restaurant (id,item_name,item_price) VALUES (1,'chinese',400);
+	
+
+	CREATE TABLE rider(
+	r_id int PRIMARY KEY AUTO_INCREMENT,
+    	r_name varchar(20),
+    	mobile_no bigint,
+    	v_no varchar(20),
+    	restaurant_id int,
+    	income bigint,
+    	FOREIGN KEY restaurant_id REFERENCES restaurant (restaurant_id)
+	);
+
+	ALTER TABLE restaurant CHANGE id restaurant_id int;
+
+	INSERT INTO rider (r_id,r_name,mobile_no,v_no,restaurant_id,income) VALUES (11,'vivek',7894646,'GJ27AB1244',1,20000);
+	INSERT INTO rider (r_name,mobile_no,v_no,restaurant_id,income) VALUES ('rutvik',3234646,'GJ27BC1254',2,15000),	
+	('ketan',3234688,'GJ01BC1254',3,22000),('parth',3288646,'GJ27AD2254',4,23000),('pratham',4224646,'GJ27BP5554',5,21000);
+
+	Query:
+	UPDATE rider SET r_name='hardik' where r_name LIKE 'r%'; 
+	DELETE FROM rider WHERE mobile_no = 7894646;
+	SELECT * FROM rider WHERE r_name LIKE '__t%'; 
+	SELECT restaurant.restaurant_id,restaurant.item_name,restaurant.item_price FROM restaurant INNER JOIN rider on 	restaurant.restaurant_id = rider.restaurant_id;
+	DELIMITER $$
+	CREATE PROCEDURE fun2()
+	BEGIN
+
+	UPDATE restaurant SET item_name = 'paneer chili' where item_price >= 400;
+
+	END;
+
+	TRUNCATE TABLE rider;
+	TRUNCATE TABLE restaurant;
+	DROP DATABASE zomato;
+
+
+
+->Trigger
+
+
+table
+
+signup	
+
+
+CREATE TABLE trigger03 (
+
+    tid int,
+    tname varchar(60),
+    temail varchar(80),
+    tmobile bigint,
+    tpassword int,
+    time_fetch timestamp,
+    action_perform varchar(80)
+
+);
+
+1) DELETE
+CREATE TRIGGER trigger10 BEFORE DELETE ON signup FOR EACH ROW
+
+INSERT INTO trigger03 (tid,tname,temail,tmobile,tpassword,action_perform) VALUES (old.id,old.name,old.email,old.mobile,old.password_1,"Data Deleted!!");
+
+2) INSERT
+CREATE TRIGGER trigger11 AFTER INSERT on signup FOR EACH ROW
+
+INSERT INTO trigger03 (tid,tname,temail,tmobile,tpassword,action_perform) VALUES (new.id,new.name,new.email,new.mobile,new.password_1,"Data Inserted!!");
+INSERT INTO signup (id,name,email,mobile,password_1) VALUES (4,'hetvi','h11@gmail.com',4569853217,222);
+
+3) UPDATE
+CREATE TRIGGER trigger12 BEFORE UPDATE ON signup FOR EACH ROW
+
+INSERT INTO trigger03 (tid,tname,temail,tmobile,tpassword,action_perform) VALUES (old.id,old.name,old.email,old.mobile,old.password_1,"Data updated!!");
+UPDATE signup SET name='khushi' WHERE id=4;

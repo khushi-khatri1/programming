@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        ul{
+            list-style: none;
+        }
+
+        ul li::first-letter{
+            background-color: bisque;
+        }
+
+        p::selection{
+            background-color: cadetblue;
+        }
+
+        .p::first-line{
+            background-color: blueviolet;
+        }
+
+        ul li::after{
+            content: '.';
+        }
+
+        ul li::before{
+            content: 'a';
+        }
+
+    </style>
+</head>
+<body>
+    <ul>
+        <li>one</li>
+        <li>Two</li>
+        <li>Three</li>
+        <li>Four</li>
+        <li>Five</li>
+    </ul>   
+
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed, ipsam odio atque libero magni necessitatibus quidem facere quas repellendus animi, vitae maiores eligendi tempora esse ut magnam ad repellat illum.</p>
+    <p class="p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore numquam dolorum enim in quidem quo quibusdam omnis repellat consequatur, perferendis atque velit inventore asperiores libero, fuga rem magnam impedit dignissimos?</p>
+</body>
+</html>
