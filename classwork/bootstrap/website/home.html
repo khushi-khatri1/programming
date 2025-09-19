@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <style>
+        
+        .custom-navbar{
+            background-color: #121212;
+            position: fixed;
+            z-index: 9;
+            height: 90px;
+            width: 100%;
+            top: 0;
+        }
+        .nav-link{
+            color: #B3B3B3;
+            font-size: 22px;
+            font-weight: 500;
+        }
+        .nav-link:hover{
+            color: #009688;
+        }
+        img{
+            object-fit: cover;
+        }
+        .main {
+            margin-top: 70px;
+            width: 100vw;
+            height: 100vh;
+            position: relative;
+        }
+        .main img {
+            width: 1217px;
+            height: 480px;
+            object-fit: fill;
+            display: block;
+        }
+        .main button {
+            position: absolute;
+            top: 45%;             
+            transform: translateY(-50%);
+            background: rgba(0, 0, 0, 0.5);
+            color: rgb(244, 237, 237);
+            border: none;
+            padding: 9px;
+            font-size: 30px;
+            cursor: pointer;
+            border-radius: 50%;
+            z-index: 10;         
+        }
+
+        #p { 
+            margin-left: 1%; 
+        }
+        #n {
+             margin-left: 95%; 
+            }
+        .main button:hover {
+            background: rgba(121, 110, 110, 0.8);
+        }
+
+        .content{
+            height: 480px;
+            width: 100%;
+            display: flex;
+            justify-content: space-evenly;
+        }
+        .dia img{
+            height: 90%;
+            width: 100%;
+        }
+        h3{
+            margin-top: 60px;
+            color: #E53935;
+            font-weight: 300;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        h1{
+            font-weight: 800;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin-top: 50px;
+            margin-bottom: 0;
+        }
+        p{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            margin-top: 30px;
+            font-size: large;
+        }
+        .v4{
+            position: relative;
+            overflow: hidden;
+            display: flex;
+            height: 600px;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+        .v4 video{
+            height: 600px;
+            width: 100%;
+            object-fit: fill;
+            z-index: 1;
+            top: 0;
+            left: 0;
+            position: absolute;
+        }
+        .v4::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0,0,0,0.6); 
+            z-index: 2;
+        }
+        .states{
+            display: grid;
+            grid-template-columns: auto auto auto;
+            text-align: center;
+            row-gap: 50px;
+            column-gap: 90px;    
+        }
+        .con{
+            position: relative;
+            z-index: 3;
+            color: white;
+        }
+        .con h1{
+            margin-top: 30px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        .states{
+            margin-top: 50px;
+        }
+        .stat-item i{
+            color: white;
+            font-size: 80px;
+        }
+        .stat-item h2{
+            font-size: 50px;
+        }
+        .stat-item h5{
+            font-size: 20px;
+            color: darkgray;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+        .section{
+            margin-top: 40px;
+            display: flex;
+            justify-content: space-evenly;
+            text-align: justify;   
+        }
+        .section img{
+            margin-top: 60px;
+            height: 400px;
+            width: 420px;
+        }
+        .text h3,h1{
+            opacity:0;
+            transform: translateX(-80px);
+            animation: slideIn 1s ease forwards;
+            animation-delay: 0.8s;
+        }
+        @keyframes slideIn{
+            to{
+                opacity:1;
+                transform: translateX(0);
+            }
+        }
+
+        .t{
+            margin-top: 30px; 
+        }
+        .t p{
+            font-family: "Poppins", sans-serif;
+            font-size: 20px;
+        }
+        .t h1{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        .cards{
+            height: 800px;
+            width: 900px;
+            margin-top: 90px;
+            background-color: #f0f2f5;
+            color: white;
+            text-align: center;
+            margin-left: 13%;
+            align-items: center;  
+        }
+        
+        .cards h1{
+            margin-top: 15px;
+            color: #020202;
+        }
+        .bunch{
+            display: grid;
+            grid-template-columns: auto auto;
+            gap: 30px;
+            justify-content: center;
+            align-items: center;
+            margin-top: 60px;
+        }
+        .c1{
+            height: 300px;
+            width: 350px;
+            border-radius: 5%;
+            background-color: white;
+            color: #484040;
+            border: 2px solid whitesmoke;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+            transition: all 0.3s ease;
+        }
+        .quote-icon{
+            font-size: 50px;
+            margin-right: 85%;
+            color: #E53935;
+        }
+        .user-icon{
+            font-size: 30px;
+        }
+
+        .c1:hover {
+            background: linear-gradient(135deg, #2e2e2e, #1a1a1a);
+            color: #ffffff;              /* text white */
+            transform: translateY(-5px);
+            box-shadow: 0 12px 25px rgba(0,0,0,0.25);  
+        }
+        .fo{
+            background-color: black;
+            color: white;
+            height: 400px;
+            width: 100%;
+            margin-top: 90px;
+            display: flex;
+            justify-content: space-evenly;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        .bye li{
+            list-style: none;
+            padding: 0;
+            font-size: 20px;  
+        }
+        .ff{
+            font-size: 30px;
+            word-spacing: 10px;
+        }
+        .copy{
+            background-color: #484040;
+            height: 90px;
+            width: 100%;
+            margin: 0;
+            text-align: center;
+            padding: 15px 0;
+        }
+        .copy p{
+            margin: 0;
+            color: white;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            word-spacing: 5px;
+            font-size: 20px;
+        }
+        .bye a{
+            text-decoration: none;
+            color: white;
+        }
+        .bye a:hover{
+            color: #009688;
+        }
+       
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg custom-navbar">
+    <div class="container-fluid">
+        <img src="/pics/l1.png" alt="" height="100px" width="220px">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="home.html">Home</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="aboutus.html">AboutUs</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="services.html">Services</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="contactus.html">ContactUs</a>
+                </li>
+                
+            </ul>
+        </div>
+            <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+                <button class="btn btn-outline-secondary" type="submit" style="color: white;">Search</button>
+            </form>
+    </div>
+    </nav>
+    <div class="main">
+        <img src="/pics/t1.jpg" alt="" id="t1"> 
+        <button onclick="slider()" id="p"> < </button>
+        <button onclick="sliderrev()" id="n"> > </button>
+    </div>
+    <script>
+        let img_tag = document.getElementById("t1")
+        console.log(img_tag.src)
+
+        function slider()
+        {
+            if(img_tag.src.match("/pics/t1.jpg"))
+            {
+                img_tag.src = "/pics/t2.jpeg"
+            }
+            else if(img_tag.src.match("/pics/t2.jpeg"))
+            {
+                img_tag.src = "/pics/t3.jpg"
+            }
+            else if(img_tag.src.match("/pics/t3.jpg"))
+            {
+                img_tag.src = "/pics/t4.jpg"
+            }
+            else
+            {
+                img_tag.src = "/pics/t1.jpg"
+            }
+        }
+
+        function sliderrev()
+        {
+            if(img_tag.src.match("/pics/t4.jpg"))
+            {
+                img_tag.src = "/pics/t3.jpg"
+            }
+            else if(img_tag.src.match("/pics/t3.jpg"))
+            {
+                img_tag.src = "/pics/t2.jpeg"
+            }
+            else if(img_tag.src.match("/pics/t2.jpeg"))
+            {
+                img_tag.src = "/pics/t1.jpg"
+            }
+            else
+            {
+                img_tag.src = "/pics/t4.jpg"
+            }
+        }
+    </script>
+    <div class="content">
+        <div class="text">
+            <h3>WELCOME TO       ......</h3>
+            <h1>VibrantCore TechSystems</h1>
+            <p>VibrantCore TechSystems is a best web and <br>
+                Branding solutions provider company in india.<br>
+                We have successfully completed more than <br>
+                600+ web projects. We are specializes in <br>
+                customized website,content writing and <br>
+                Business software solutions.</p>
+        </div>
+        <div class="dia">
+            <img src="/pics/we.png" alt="">
+        </div>
+    </div>
+
+    <div class="v4">
+            <video src="/pics/video.mp4.mp4" autoplay loop muted></video>
+            <div class="con">
+                <h1><u>OUR FACTS</u></h1>
+                <div class="states">
+                    <div class="stat-item">
+                    <i class="fa-solid fa-suitcase"></i>
+                    <h2>1000+</h2>
+                    <h5>project completed</h5>
+                    </div>
+
+                    <div class="stat-item">
+                    <i class="fa-regular fa-face-smile"></i>
+                    <h2>800+</h2>
+                    <h5>Happy Customer</h5>
+                    </div>
+
+                    <div class="stat-item">
+                    <i class="fa fa-tags"></i>
+                    <h2>9+</h2>
+                    <h5>Years Experience</h5>
+                    </div>
+
+                    <div class="stat-item">
+                    <i class="fa-solid fa-gears"></i>
+                    <h2>30+</h2>
+                    <h5>Bussiness Solution</h5>
+                    </div>
+
+                    <div class="stat-item">
+                    <i class="fa-solid fa-users"></i>
+                    <h2>25+</h2>
+                    <h5>Personal Team</h5>
+                    </div>
+
+                    <div class="stat-item">
+                    <i class="fa-solid fa-mug-saucer"></i>
+                    <h2>90,000+</h2>
+                    <h5>Cup Of Tea</h5>
+                    </div>
+                </div>
+            </div>
+    </div>
+    <div class="section">
+        <img src="/pics/we-de.jpg" alt="" class="animated-img">
+        <div class="t slide" >
+            <h1>Web Development</h1>
+            <p>At VibrantCore TechSystems, we craft modern,<br> 
+                responsive, and high-performance websites <br>
+                tailored to your business needs.Our team <br>
+                ensures seamless functionality with clean <br>
+                code, optimized speed, and secure architecture.<br>
+                From simple business sites to complex e-commerce<br>
+                 platforms, we build scalable digital solutions.<br>
+                We focus on user-friendly designs that not only <br>
+                look great but also drive measurable results.</p>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="t slide">
+            <h1>Branding</h1>
+            <p>At VibrantCore TechSystems, we craft unique digital<br>
+                experiences that bring your brand to life.Our expert<br>
+                team combines creativity and technology to deliver<br>
+                results that matter.From web development to brand <br>
+                strategy, we ensure every project reflects your vision.<br>
+                We help businesses grow, connect, and stand out in <br>
+                the digital world.With passion and innovation at our<br>
+                core, we turn ideas into impactful realities.</p>
+        </div>
+        <img src="/pics/branding.jpg" alt="">
+    </div>
+
+    <div class="section">
+        <img src="/pics/con-wr.jpg" alt="">
+        <div class="t slide">
+            <h1>Content Writing</h1>
+            <p>Our company specializes in professional content writing <br>
+               that helps businesses stand out. We craft every piece with<br>
+               care, ensuring that your brand’s voice is clear, engaging, <br>
+               and resonates with your target audience. From website content<br>
+               to marketing materials, our words are designed to strengthen<br>
+               your brand identity and drive growth. With our expertise, we<br>
+               help your business communicate effectively and reach new heights</p>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="t slide">
+            <h1>Digital Marketing</h1>
+            <p>Our company specializes in digital marketing solutions that<br>
+                help businesses grow online. We design strategies tailored<br>
+                to your brand, ensuring maximum engagement with your target<br>
+                audience. From social media campaigns to SEO and paid<br> 
+                advertising, our approach drives results and boosts your<br>
+                online presence. With our expertise, we help your business<br>
+                reach new heights and achieve measurable success in the<br>
+                digital world.</p>
+        </div>
+        <img src="/pics/digital-m.jpg" alt="">
+    </div>
+
+    <div class="cards">
+        <h1><u>What Client's Say</u></h1>
+        <div class="bunch">
+            <div class="c1">
+                <i class="fa-solid fa-quote-left quote-icon"></i>
+                <p>Their digital marketing strategies<br>
+                helped our business grow <br>
+                exponentially.The team is very <br>
+                professional and results-driven.</p>
+                <i class="fa-solid fa-user user-icon"></i><h4>Anjali Singhal</h4>
+            </div>
+
+            <div class="c1">
+                <i class="fa-solid fa-quote-left quote-icon"></i>
+                <p>I absolutely love his work,<br>
+                he did the project fast and <br>
+                high quality. I highly <br>
+                recommend.</p>
+                <i class="fa-solid fa-user user-icon"></i><h4>Hetvi Khatri</h4>
+            </div>
+
+            <div class="c1">
+                <i class="fa-solid fa-quote-left quote-icon"></i>
+                <p>The website they developed is<br>
+                   sleek,fast, and user-friendly.<br>
+                   Communication throughout the<br>
+                   project was excellent.</p>
+                <i class="fa-solid fa-user user-icon"></i><h4>Vamika Chauhan</h4>
+            </div>
+            
+            <div class="c1">
+                <i class="fa-solid fa-quote-left quote-icon" ></i>
+                <p>Excellent work, VibrantCore<br>
+                   TechSystems is Good IT company<br>
+                   with highly qualified and most<br>
+                   experience developers.Thank you</p>
+                <i class="fa-solid fa-user user-icon"></i><h4>Margi Patel</h4>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="fo">
+            <div class="bye">
+                <h3>Company</h3>
+                <ul>
+                    <li><a href="#">Career</li></a>
+                    <li><a href="aboutus.html">About Us</li></a>
+                    <li><a href="#">Hire Developer</li></a>
+                    <li><a href="#">Privacy policy</li></a>
+                    <li><a href="#">Terms & Condition</li></a>
+                    <li><a href="contactus.html">Contact Us</li></a>
+                </ul>
+            </div>
+
+             <div class="bye">
+                <h3>Services</h3>
+                <ul>
+                    <li><a href="services.html">Web development</li></a>
+                    <li><a href="services.html">Branding</li></a>
+                    <li><a href="services.html">Content writing</li></a>
+                    <li><a href="services.html">Digital Marketing</li></a>
+                </ul>
+            </div>
+
+            <div class="bye">
+                <h3>Contact Us</h3>
+                <ul>
+                    <li><a href="#"><i class="fa-solid fa-mobile"></i>    (91+) 8574236981</li></a>
+                    <li><a href="#"><i class="fa-solid fa-mobile"></i>    (91+) 1478523690</li></a>
+                    <li><a href="#"><i class="fa-solid fa-mobile"></i>    (91+) 7410258741</li></a>
+                    <li><a href="#"><i class="fa-solid fa-mobile"></i>    (91+) 5588762014</li></a>
+                    <li><a href="#"><i class="fa-brands fa-whatsapp"></i>  (91+) 7885411206</li></a>
+                    <li><a href="#"><i class="fa-brands fa-whatsapp"></i>  (91+) 3640523369</li></a>
+                </ul>
+            </div>
+
+            <div class="bye">
+                <h3>Stay Connected...</h3>
+                <ul class="ff">
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-solid fa-envelope"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                </ul>
+            </div>
+        </div>
+        <div class="copy">
+                <p>© 2025 VibrantCore TechSystems. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>

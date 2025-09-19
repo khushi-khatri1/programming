@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3>press 1 for factorial</h3>
+    <h3>press 2 for odd/even</h3>
+    <h3>press 1 for fibonacci</h3>
+
+    <input type="number" id="n1" placeholder="enter number">
+    <button type="submit" onclick="switch_choice()">Choice</button>
+
+    <script>
+        function switch_choice()
+        {
+            let num = parseInt(document.getElementById("n1").value);
+            switch(num)
+            {
+                case 1:
+                    let n=5;
+                    let fact=1;
+                    for(let i=1;i<=n;i++)
+                    {
+                        fact*=i;
+                    }  
+                    document.write("Factorial of " + n + " is " + fact ) ;
+
+                case 2:
+                    let n2=7;
+                    if(n2%2==0)
+                    {
+                        document.write(n2+" is even number");
+                    }
+                    else
+                    {
+                        document.write(n2+" is odd number");
+                    }
+
+                case 3:
+                    let a=0;
+                    let b=1;
+                    let n3=10;
+                    
+                    document.write(a+"<br>");
+                    document.write(b+"<br>");
+                    for(let i=3;i<=n3;i++)
+                    {
+                        let c = a+b;
+                        document.write(c+"<br>");
+                        a=b;
+                        b=c;
+                    }
+            }
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main{
+            height: 470px;
+            width: 300px;
+            border: 2px solid whitesmoke;
+            box-shadow: 0px 0px 5px black;
+            margin: 200px auto;
+        }
+
+        .main img{
+            margin-left: 20px;
+        }
+
+        .New{
+            text-align: end;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-weight: 800;
+            background-color: lightcoral;
+            padding: 3px;
+            color: white;
+        }
+
+        h3{
+            text-align: center;
+            color: red;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-weight: 400;
+        }
+
+        span{
+            margin-left: 90px;   
+        }
+
+        del{
+            margin-left: 15px;
+            color: rgb(90, 86, 86);
+            font-weight: 400;
+        }
+
+        .image{
+            position: relative;
+        }
+
+        .button1{
+            margin-top: 15px;
+            margin-left: 90px;
+        }
+
+        .button1 button{
+            background-color: aqua;
+            padding: 10px;
+            border-radius: 10px;
+            color: white;
+            font-weight: 800;
+            font-family: 'Courier New', Courier, monospace;
+            border: 2px solid transparent;
+        }
+
+        button:hover{
+            border: double;
+            /*border-width: thick;*/
+            border-width: 9px;
+            padding: 9px;
+            transform: scale(1.1);
+        }
+
+        img:hover{
+            transform: scale(1.03);
+           
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="New">New</div>
+        <div class="image">
+            <img src="img/shirt.jpg" alt="shirt">
+        </div>
+
+        <div class="content">
+            <h3 class="h3">Formal Blue Shirt</h3>
+            <span><b>$45.99</b></span><del>$69.71</del>
+        </div>
+
+        <div class="button1">
+            <button>ADD TO CART</button>
+        </div>
+    </div>
+</body>
+</html>

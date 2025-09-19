@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        document.write("numeric...<br>")
+        var person = {
+            1:"hello",
+            2:{
+                6:"this",
+                7:"random"
+            },
+            3:"hello"
+        }
+        document.write(person[1],"<br>");
+        document.write(person[2][7]);
+
+        document.write("<br><br>characters...<br>")
+        var student = {
+            name:"khushi",
+            age:19,
+            course:{
+                frontend : "yes",
+                backend : "no",
+            }
+        }
+        document.write(student.name,"<br>");
+        document.write(student.course.frontend);
+
+        document.write("<br><br>object in array...<br>")
+        var arr=[1,6,8,9,{
+            name:"jiyaa..",
+            age:24,
+            course:"backend"
+        }]
+        document.write(arr[4].age,)
+
+        document.write("<br><br>array in object...<br>")
+        var employee={
+            name:"anjali",
+            age:21,
+            marks:[55,56,45,65,70]
+        }
+        document.write(employee.marks[2])
+    </script>
+</body>
+</html>

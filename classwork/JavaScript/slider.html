@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        img{
+            height: 550px;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <img src="/images/img1.jpg" alt="" id="img1">
+    <button onclick="sliderrev()">Previous</button>
+    <button onclick="slider()">Next</button>
+
+    <script>
+        let img_tag = document.getElementById("img1")
+        console.log(img_tag.src)
+
+        function slider()
+        {
+            if(img_tag.src.match("/images/img1.jpg"))
+            {
+                img_tag.src = "/images/img2.jpg"
+            }
+            else if(img_tag.src.match("/images/img2.jpg"))
+            {
+                img_tag.src = "/images/img3.jpg"
+            }
+            else if(img_tag.src.match("/images/img3.jpg"))
+            {
+                img_tag.src = "/images/img4.jpg"
+            }
+            else
+            {
+                img_tag.src = "/images/img1.jpg"
+            }
+        }
+
+        function sliderrev()
+        {
+            if(img_tag.src.match("/images/img4.jpg"))
+            {
+                img_tag.src = "/images/img3.jpg"
+            }
+            else if(img_tag.src.match("/images/img3.jpg"))
+            {
+                img_tag.src = "/images/img2.jpg"
+            }
+            else if(img_tag.src.match("/images/img2.jpg"))
+            {
+                img_tag.src = "/images/img1.jpg"
+            }
+            else
+            {
+                img_tag.src = "/images/img3.jpg"
+            }
+        }
+    </script>
+</body>
+</html>

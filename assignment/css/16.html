@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: bisque;
+        }
+        h1{
+            text-align: center;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            color: navy;
+            margin-top: 0;
+        }
+        .main{
+            display: grid;
+            grid-template-columns:auto auto auto ;
+            align-items: center;
+            row-gap: 65px;
+        }
+        img{
+            height: 250px;
+            width: 250px;
+            margin-top: 30px;
+        }
+
+        img:hover{
+            box-shadow: 10px 10px 10px rgb(53, 52, 52);
+            transform: scale(1.1);
+            transform: rotate(60deg);
+            transition: 3s;
+        }
+    </style>
+</head>
+<body>
+     <h1>Image Gallery</h1>
+    <div class="main">
+        <img src="/img/adventure.png" alt="">
+        <img src="/img/guide-trip.jpg" alt="">
+        <img src="/img/herbal-medicine.png" alt="">
+        <img src="/img/nature.png" alt="">
+        <img src="/img/shirt.jpg" alt="">
+        <img src="/img/yoga&fitness.jpg" alt="">
+    </div>
+</body>
+</html>

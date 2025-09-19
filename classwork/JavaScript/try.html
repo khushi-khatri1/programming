@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="number" placeholder="Enter first number" id="n1"><br><br>
+    <input type="number" placeholder="Enter second number" id="n2"><br><br>
+    <input type="number" placeholder="Enter third number" id="n3"><br><br>
+    <input type="number" placeholder="Enter fourth number" id="n4"><br><br>
+    <input type="number" placeholder="Enter fifth number" id="n5"><br><br>
+    <button onclick="array()">submit</button>
+    
+        
+
+    <script>
+        /*let n1=parseInt(prompt("Enter a first number:"));
+        let n2=parseInt(prompt("Enter a second number:"));
+
+        let sum = n1 + n2;
+        alert("sum is :"+sum)*/
+
+        function array()
+        {
+            let arr=[];
+            arr[0] = document.getElementById("n1").value;
+            arr[1] = document.getElementById("n2").value;
+            arr[2] = document.getElementById("n3").value;
+            arr[3] = document.getElementById("n4").value;
+            arr[4] = document.getElementById("n5").value;
+
+            n = arr.length;
+            for(let i=0;i<n;i++)
+            {
+                document.write(arr[i]+"<br>");
+            }
+        }
+    </script>
+</body>
+</html>

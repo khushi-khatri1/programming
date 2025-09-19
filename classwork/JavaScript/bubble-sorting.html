@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let a=[21,31,41,51,61,71]
+        let i;
+        let j;
+
+        for(i=0;i<6;i++)
+        {
+            for(j=i+1;j<6;j++)
+            {
+                if (a[i]>a[j]) /* for descending change the sign <*/
+                {
+                    let temp = a[i]
+                    a[i] = a[j]
+                    a[j] = temp
+                }
+            }
+        }
+
+        for(i=0;i<6;i++)
+        {
+            document.write(a[i]," ")
+        }
+    </script>
+</body>
+</html>

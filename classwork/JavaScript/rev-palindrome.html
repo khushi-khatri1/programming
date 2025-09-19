@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="number" placeholder="Enter number" id="n">
+    <button onclick="reverse()">Reverse</button>
+    <button onclick="palindrome()">Palindrome</button>
+    <script>
+         function reverse()
+        {
+            let n = document.getElementById("n").value;
+            rev = 0;
+            remainder = 0;
+            while(n!=0)
+            {
+                remainder = n%10;
+                rev = rev*10 + remainder;
+                n = Math.floor(n/10);
+            }
+            document.write(rev);
+
+            /*let i;
+            for(i=n;i>=1;i--)
+            {
+                document.write(i+"<br>");
+            }*/
+        }
+
+        function palindrome()
+        {
+            let n = document.getElementById("n").value;
+            let n1 = n;
+            rev = 0;
+            remainder = 0;
+            while(n!=0)
+            {
+                remainder = n%10;
+                rev = rev*10 + remainder;
+                n = Math.floor(n/10);
+            }
+            document.write(rev);
+
+            if(n1==rev)
+            {
+                document.write("plaindrome");
+            }
+            else
+            {
+                document.write("not plaindrome");
+            }
+        }
+    </script>
+    </script>
+</body>
+</html>
