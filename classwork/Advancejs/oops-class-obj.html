@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        class Myclass{
+            x = function abc() //method
+            {
+                console.log("method 1...")
+            } 
+
+           
+             /*abc()
+            {
+                console.log("method 1...")   
+            }*/
+            
+
+            y = function xyz() //method
+            {
+                console.log("method 2...")
+            }
+            
+            static kk(a,b)
+            {
+                console.log(a);
+                console.log(b)
+                console.log("static printed..")
+            }
+        }
+
+        let obj = new Myclass;
+        obj.x()
+        //obj.abc()
+        obj.y()
+        Myclass.kk(10,20)
+    </script>
+</body>
+</html>

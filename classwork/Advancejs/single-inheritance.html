@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        /*inheritance : when one class derived all the properties from another class called 
+        inheritance. types :1)single 2)multilevel 3)multiple 4)hierarchi 5)hybrid*/
+
+        /*1)single level
+        A (PARENT,ROOT,BASE)
+        |
+        B (CHILD,DERIVED,SUB)*/
+
+        class Myclass{
+            x = function xyz()
+            {
+                console.log("method 1...")
+            }
+
+            y = function yyz()
+            {
+                console.log("parent class..")
+            }
+        }
+
+         class Myclass2 extends Myclass{
+            z = function abc()
+            {
+                console.log("child class")
+            }
+         }
+
+         obj = new Myclass2
+         obj.x()
+         obj.y()
+         obj.z()
+    </script>
+</body>
+</html>

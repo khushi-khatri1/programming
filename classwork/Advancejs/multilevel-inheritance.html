@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+        /*2)multiple level
+        A 
+        |
+        B 
+        |
+        C
+        |
+        D  */
+
+        class Myclass{
+            x = function xyz()
+            {
+                console.log("method 2...")
+            }
+
+            y = function yyz()
+            {
+                console.log("parent class..")
+            }
+        }
+
+         class Myclass2 extends Myclass{
+            z = function abc()
+            {
+                console.log("child class")
+            }
+         }
+
+         class Myclass3 extends Myclass2{
+            a = function def()
+            {
+                console.log("multilevel inheritance...")
+            }
+         }
+
+         obj = new Myclass3
+         obj.x()
+         obj.y()
+         obj.z()
+         obj.a()
+    </script>
+</body>
+</html>

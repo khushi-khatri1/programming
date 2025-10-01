@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap Portfolio</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+<!-- Header -->
+<header class="bg-dark text-white text-center p-4">
+  <div class="container">
+    <h1>My Bootstrap Portfolio</h1>
+    <p class="lead">Responsive Layout with Bootstrap</p>
+  </div>
+</header>
+
+<!-- Main Content -->
+<main class="container my-5">
+
+  <!-- Row with two columns -->
+  <div class="row">
+    <!-- Left column -->
+    <div class="col-md-8">
+      <h2>Main Content</h2>
+      <p>
+        This is the main content area. Resize the browser window to see how Bootstrap's grid makes it responsive.
+      </p>
+      <button class="btn btn-primary me-2">Primary Action</button>
+      <button class="btn btn-outline-secondary">Secondary Action</button>
+    </div>
+
+    <!-- Right column (Form) -->
+    <div class="col-md-4">
+      <h3>Contact Me</h3>
+      <form>
+        <div class="mb-3">
+          <label for="name" class="form-label">Full Name</label>
+          <input type="text" class="form-control" id="name" placeholder="Enter your name">
+        </div>
+        <div class="mb-3">
+          <label for="email" class="form-label">Email address</label>
+          <input type="email" class="form-control" id="email" placeholder="name@example.com">
+        </div>
+        <div class="mb-3">
+          <label for="message" class="form-label">Message</label>
+          <textarea class="form-control" id="message" rows="3"></textarea>
+        </div>
+        <button type="submit" class="btn btn-success w-100">Send Message</button>
+      </form>
+    </div>
+  </div>
+
+  <!-- Portfolio Section -->
+  <section class="mt-5">
+    <h2 class="text-center mb-4">My Portfolio</h2>
+    <div class="row g-4">
+      <!-- Portfolio Card 1 -->
+      <div class="col-sm-6 col-md-4">
+        <div class="card h-100 shadow">
+          <img src="https://via.placeholder.com/400x200" class="card-img-top" alt="Project 1">
+          <div class="card-body">
+            <h5 class="card-title">Project 1</h5>
+            <p class="card-text">Description of project one. Responsive and clean.</p>
+            <a href="#" class="btn btn-primary">View Project</a>
+          </div>
+        </div>
+      </div>
+      <!-- Portfolio Card 2 -->
+      <div class="col-sm-6 col-md-4">
+        <div class="card h-100 shadow">
+          <img src="https://via.placeholder.com/400x200" class="card-img-top" alt="Project 2">
+          <div class="card-body">
+            <h5 class="card-title">Project 2</h5>
+            <p class="card-text">Description of project two. Built with Bootstrap.</p>
+            <a href="#" class="btn btn-primary">View Project</a>
+          </div>
+        </div>
+      </div>
+      <!-- Portfolio Card 3 -->
+      <div class="col-sm-6 col-md-4">
+        <div class="card h-100 shadow">
+          <img src="https://via.placeholder.com/400x200" class="card-img-top" alt="Project 3">
+          <div class="card-body">
+            <h5 class="card-title">Project 3</h5>
+            <p class="card-text">Description of project three. Modern UI/UX.</p>
+            <a href="#" class="btn btn-primary">View Project</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- Footer -->
+<footer class="bg-dark text-white text-center p-3 mt-5">
+  <p>&copy; 2025 My Portfolio | Designed with Bootstrap</p>
+</footer>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

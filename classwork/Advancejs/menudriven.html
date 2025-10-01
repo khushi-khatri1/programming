@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="number" placeholder="enter number" id="num">
+    <button type="submit" onclick="run()">submit</button>
+    <script>
+        class Myclass{
+            x = function object()
+            {
+                var person = {
+                    1:"hello",
+                    2:{
+                        6:"this",
+                        7:"random"
+                    },
+                    3:"hello"
+                }
+                console.log(person[1]);
+                console.log(person[2][7]);
+            }
+        }
+
+        class Myclass2 extends Myclass{
+            y = function yyz()
+            {
+                let arr = [11,23,45,37,89]
+                console.log(arr)
+                console.log(arr[3])
+            }
+        }
+
+        class Myclass3 extends Myclass2{
+            z = function abc()
+            {
+                var employee={
+                name:"anjali",
+                age:21,
+                marks:[55,56,45,65,70]
+                }
+                console.log(employee.marks[2])
+            }
+        }
+        obj = new Myclass3
+
+    function run()
+    {
+        let num = (document.getElementById('num').value);
+        console.log("press 1 for access function x")
+        console.log("press 2 for access function y")
+        console.log("press 3 for access function z")
+        
+        if(num == 1)
+        {
+            console.log(obj.x())
+        }
+        else if(num == 2)
+        {
+            console.log(obj.y())
+        }
+         else if(num == 3)
+        {
+            console.log(obj.z())
+        }
+        else
+        {
+            console.log("entered wrong number")
+        }
+
+    }
+    </script>
+</body>
+</html>
