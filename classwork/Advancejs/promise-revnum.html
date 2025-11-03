@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let obj = new Promise(function(res,rej)
+        {
+            let n = 12345
+            if(n)
+            {
+                let n1 = n;
+                rev = 0;
+                while(n!=0)
+                {
+                    let remainder = n % 10;
+                    rev = rev*10 + remainder;
+                    n = Math.floor(n/10);
+                }
+                res("reverdes number"+rev)
+            }
+            else
+            {
+                rej("Reversed failed")
+            }
+                
+        }
+    )
+    console.log(obj);
+    </script>
+</body>
+</html>

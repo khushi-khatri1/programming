@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>javascript event handling</title>
+</head>
+<body>
+    <script>
+        try{
+            let num = prompt("enter a number")
+            if(isNaN(num))
+            {
+                throw "not a number";
+            }
+            console.log("you enterred number : ",num)
+        }
+
+        catch(error){
+            console.log("error caught",error);
+            prompt("please enter valid number");
+        }
+
+        finally{
+            console.log("execution finished (finally block)");
+        }
+    </script>
+</body>
+</html>
