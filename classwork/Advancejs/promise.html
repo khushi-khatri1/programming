@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function result(data)
+        {
+            console.log(data)
+        }
+
+        let abc =  new Promise(function(res,reje)
+        {
+            if(2==2)
+            {
+                res("data show")
+            }
+            else
+            {
+                reje("data not found")
+            }
+        })
+        .then(
+            function(res){
+                result(res)
+            },
+            function(res){
+                result(Res)
+            }
+        )
+        .catch((errr)=>{
+            console.log("error data",errr)
+        })
+    </script>
+</body>
+</html>

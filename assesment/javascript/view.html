@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Plant Reports</title>
+<style>
+    body { font-family: Arial; padding: 20px; }
+    table { width: 100%; border-collapse: collapse; margin-top: 15px; }
+    th, td { border: 1px solid #777; padding: 8px; text-align: left; }
+    #search { padding: 8px; width: 250px; }
+    #nodata { color: red; margin-top: 10px; font-weight: bold; }
+</style>
+</head>
+
+<body>
+<h2>View Plant Reports</h2>
+
+<input type="text" id="search" placeholder="Search by name or location">
+<div id="nodata"></div>
+
+<table>
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Location</th>
+            <th>Frequency</th>
+            <th>Date</th>
+            <th>Notes</th>
+        </tr>
+    </thead>
+    <tbody id="tbody"></tbody>
+</table>
+
+<script>
+    // Read stored data
+    let data = JSON.parse(localStorage.getItem("plants")) || [];
+    let tbody = document.getElementById("tbody");
+    let msg = document.getElementById("nodata");
+
+    // Display table function
+    function show(list) {
+        tbody.innerHTML = "";
+
+        if (list.length === 0) {
+            msg.textContent = "No data found";
+            return;
+        }
+
+        msg.textContent = "";
+
+        list.forEach(p => {
+            tbody.innerHTML += `
+                <tr>
+                    <td>${p.name}</td>
+                    <td>${p.loc}</td>
+                    <td>${p.freq}</td>
+                    <td>${p.date}</td>
+                    <td>${p.notes}</td>
+                </tr>`;
+        });
+    }
+
+    // Search filter
+    document.getElementById("search").addEventListener("keyup", () => {
+        let text = document.getElementById("search").value.toLowerCase();
+
+        let filtered = data.filter(p =>
+            p.name.toLowerCase().includes(text) ||
+            p.loc.toLowerCase().includes(text)
+        );
+
+        show(filtered);
+    });
+
+    // Show all data on load
+    show(data);
+</script>
+
+</body>
+</html>

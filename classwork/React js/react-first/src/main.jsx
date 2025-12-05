@@ -2,12 +2,34 @@ import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
 import App from './App.jsx'
-import Doc from './Doc.jsx'
+import {App1,App2} from './App.jsx'
+import Image from './image_src.jsx'
+import Ab from './states.jsx'
+import Hook_example from './Hook-intro.jsx'
+import {Color} from './Hook-intro.jsx'
+import Toggle from './toggle.jsx'
+import Useredu from './switch.jsx'
+import {reducer} from './switch.jsx'
+import Week from './switchdays.jsx'
+import {reduu} from './switchdays.jsx'
+import Form from './form.jsx'
+import Show from './user-input.jsx'
+import Calc from './calculator.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <Doc />
     <App />
-    
+    <App1 />
+    <App2 />
+    <Image />
+    <Ab />
+    <Hook_example />
+    <Color />
+    <Toggle />
+    <Useredu />
+    <Week />
+    <Form />
+    <Show />
+    <Calc />
   </StrictMode>,
 )

@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background: linear-gradient(135deg, #a8e063, #56ab2f);
+        }
+        #fm{
+            margin-top: 40px;
+            background-color: #c3ec9e;
+            height: 600px;
+            width: 700px;
+            margin-left: 20%;
+        }
+        input,select,textarea{
+           padding: 20px 90px;
+           margin-top: 15px;
+           transition: 0.3s ease-in;
+        }
+        input:hover,
+        select:hover,
+        textarea:hover{
+            transform: scale(1.03);
+            box-shadow: 0 0 10px rgba(0, 128, 0, 0.4);
+        }
+        label{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-weight: 500;
+        }
+        button{
+            padding: 10px 25px;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 20px;
+            border: none;
+            text-align: center;
+            font-weight: 600;
+            font-size: 15px;
+            background-color: rgb(179, 182, 182);
+            transition: 0.3s ease-in;
+        }
+        button:hover{
+            box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+            transform: scale(1.03);
+        }
+        h1{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #081701;
+        }
+        #msg{font-weight:bold; text-align:center; margin-top:10px;}
+
+    </style>
+</head>
+<body>
+    
+    <h1><center>Urban Greentech</center></h1>
+    
+    <div id="fm">
+    <form action="" id="plantform">
+        <center>
+            <table>
+                <tr>
+                <td><label for="">Plant Name : </label></td>
+                <td><input type="text" id="name" placeholder="enter Plant Name" required><br><br></td>
+                </tr>
+
+                <tr>
+                <td><label for="">Location in Home : </label></td>
+                <td><select id="location" required>
+                    <option value="">Select Location</option>
+                    <option value="Balcony">Balcony</option>
+                    <option value="Kitchen">Kitchen</option>
+                    <option value="Bedroom">Bedroom</option>
+                </select><br><br></td>
+                </tr>
+
+                <tr>
+                <td><label for="">Watering frequency : </label></td>
+                <td><input type="number" id="freq" placeholder="enter number of days"  required></td>
+                </tr>
+
+                <tr>
+                <td><label for="">Last watered date : </label></td>
+                <td><input type="date" id="lastwatered" placeholder="enter number of days"  required></td>
+                </tr>
+
+                <tr>
+                    <td><label for="">Plant condition Notes : </label></td>
+                    <td><textarea name="" id="notes" rows="3" placeholder="enter plant condition" required></textarea></td>
+                </tr>
+
+                <tr>
+                    <td colspan="2">
+                    <center><button type="submit" id="s1">Submit</button>
+                        <button type="reset" id="r1">Reset</button></center>
+                    </td>
+                </tr>
+
+            </table>
+        </center>
+    </form>
+    <div id="msg"></div>
+    </div>
+
+    <script>
+        class PlantReportHandler
+        {
+            constructor()
+            {
+                this.form = document.getElementById('plantform');
+                this.msg = document.getElementById('msg');
+                this.form.addEventListener("submit",e=>this.handleSubmit(e));
+            }
+
+            handleSubmit(e)
+            {
+                e.preventDefault();
+                if(!this.validateForm()) return;
+                this.saveToLocalStorage();
+                this.showMessage("data stored","green");
+                this.clearForm();
+            }
+
+            validateForm()
+            {
+                let n=document.getElementById("name").value.trim();
+                let loc = document.getElementById("location").value;
+                let f=+document.getElementById("freq").value;
+                let d=new Date(document.getElementById("lastwatered").value);
+                let nt=document.getElementById("notes").value.trim();
+
+                if(n.length<3) return this.showMessage("name >= 3 chars")
+                if(loc === "") return this.showMessage("select location")
+                if(f<=0) return this.showMessage("frequency >0")
+                if(d>= new Date()) return this.showMessage("past date only")
+                if(nt.length<15) return this.showMessage("notes >=15 characters")
+                return true;
+            }
+
+            saveToLocalStorage()
+            {
+                let arr=JSON.parse(localStorage.getItem("plants"))||[];
+                let loc = document.getElementById("location").value;
+                arr.push({
+                    name:name.value,
+                    loc:loc,
+                    freq:freq.value,
+                    date:lastwatered.value,
+                    notes:notes.value
+                });
+                localStorage.setItem("plants",JSON.stringify(arr));
+            }
+
+            clearForm()
+            {
+                this.form.reset();
+            }
+
+            showMessage(msg,color="red")
+            {
+                this.msg.textContent=msg;
+                this.msg.style.color=color;
+            }
+        }
+    new PlantReportHandler();
+    </script>
+</body>
+</html>
