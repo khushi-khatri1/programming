@@ -3,7 +3,6 @@ import { useState } from "react";
 function Toggle()
 {
     const [toggle,settoggle]=useState(true);
-   
 
     return(
         <>

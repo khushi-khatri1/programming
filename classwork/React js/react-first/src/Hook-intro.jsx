@@ -3,7 +3,6 @@ import { useState } from "react";
 function Hook_example()
 {
     const[count,Setcount] = useState(1);
-
     
     return(
         <>

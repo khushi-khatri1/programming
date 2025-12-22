@@ -15,6 +15,14 @@ import {reduu} from './switchdays.jsx'
 import Form from './form.jsx'
 import Show from './user-input.jsx'
 import Calc from './calculator.jsx'
+import Uselife from './life-cycle.jsx'
+
+import Routingg from './routing-path.jsx'
+import Create_context from './create_context.jsx'
+import { Fac } from './propes.jsx'
+import Hook_hello from './another_hook.jsx'
+import Example_context from './context_api1.jsx'
+import User_value from './context_api2.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -31,5 +39,13 @@ createRoot(document.getElementById('root')).render(
     <Form />
     <Show />
     <Calc />
+    <Uselife />
+    <Routingg />
+    <Create_context/>
+    <Fac />
+    <Hook_hello/>
+    <Example_context>
+    <User_value/>
+    </Example_context>
   </StrictMode>,
 )

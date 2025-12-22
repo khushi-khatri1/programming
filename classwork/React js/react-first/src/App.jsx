@@ -13,8 +13,8 @@ function App() {
   )
 }
 
- export function App1(){
-   let n1 = 10
+export function App1(){
+  let n1 = 10
   let n2 = 20
   return(
       <>

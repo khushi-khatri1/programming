@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <style>
+         body{
+            /*background-color: #F3E3DA;*/
+            background-color: #ede3de;
+        }
+        .mynav{
+            background-color:  #937465;
+        }
+        li{
+            margin-top: 5%;
+            font-weight: 600;
+            font-size: 20px;
+        }
+        .row{
+            column-gap: 40px;
+            row-gap: 40px;
+            margin-left: 10%;
+            margin-top: 4%;
+        }
+        h1{
+            margin-top: 5%;
+        }
+        .card-body i{
+            font-size: 1.5rem;
+        }
+        .myc{
+            box-shadow: 2px 2px 12px 5px rgb(166, 172, 172),-2px -2px 12px 5px rgb(93, 99, 97);
+            transition: all 0.3s ease-in;
+        }
+        .myc:hover{
+            transform: translateY(-8px);
+        }
+        .btn{
+            margin-top: 1%;
+        }
+        label{
+            font-size: 1.2rem;
+            font-weight: 500;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            color: #27221f;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg mynav">
+    <div class="container-fluid">
+        
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            
+            <img src="/jwellery/images/logo.jpg" alt="" height="90px" width="90px">
+            
+            <li class="nav-item">
+            <a class="nav-link" href="home.html">Home</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="about-us.html">About Us</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="contact-us.html">Contact Us</a>
+            </li>
+        </ul>
+        <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+            <button class="btn btn-secondary" type="submit">Search</button>
+        </form>
+        </div>
+    </div>
+    </nav>
+
+    <h1 style="color: #614b3f; font-weight: 700;"><center>Contact Us via many platforms..</center></h1>
+    <div class="row">
+        <div class="card myc" style="width: 18rem; height: 10rem;">
+        <div class="card-body">
+            <i class="fa-solid fa-envelope"></i>
+            <h5 class="card-title">Crystellea11@gmail.com</h5>
+        </div>
+        </div>
+
+        <div class="card myc" style="width: 18rem; height: 10rem;"> 
+        <div class="card-body">
+            <i class="fa-solid fa-phone"></i>
+            <h5 class="card-title">7852146985</h5>
+        </div>
+        </div>
+
+        <div class="card myc" style="width: 18rem; height: 10rem;">
+        <div class="card-body">
+            <i class="fa-brands fa-square-whatsapp"></i>
+            <h5 class="card-title">Whatsapp</h5>
+        </div>
+        </div>
+
+        <div class="card myc" style="width: 18rem; height: 10rem;">
+        <div class="card-body">
+            <i class="fa-brands fa-square-instagram"></i>
+            <h5 class="card-title">Crystellea11_collection21</h5>
+        </div>
+        </div>
+
+        <div class="card myc" style="width: 18rem; height: 10rem;">
+        <div class="card-body">
+            <i class="fa-brands fa-twitter"></i>
+            <h5 class="card-title">@crystellea_official</h5>
+        </div>
+        </div>
+
+        <div class="card myc" style="width: 18rem; height: 10rem;">
+        <div class="card-body">
+            <i class="fa-solid fa-comments"></i>
+            <h5 class="card-title">Live chat</h5>
+        </div>
+        </div>
+    </div>
+
+    <h1 style="color: #614b3f; font-weight: 700;"><center>Contact form..</center></h1>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <form class="border p-4 rounded shadow" style="max-width: 600px;">
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Full Name</label>
+                    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="">
+                </div>
+
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Phone Number</label>
+                    <input type="tel" class="form-control" id="exampleFormControlInput1" placeholder="">
+                </div>
+
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Email Address</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="">
+                </div>
+
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Product Name</label>
+                    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="">
+                </div>
+
+                <label for="">Type of Inquiry</label>
+                <div class="form-check form-switch">
+                    <input class="form-check-input" type="checkbox" role="switch" id="switchCheckDefault">
+                    <label class="form-check-label" for="switchCheckDefault">Price Inquiry</label>
+                <div>
+                <div class="form-check form-switch">
+                    <input class="form-check-input" type="checkbox" role="switch" id="switchCheckDefault">
+                    <label class="form-check-label" for="switchCheckDefault">Custom Order</label>
+                </div>
+                <div class="form-check form-switch">
+                    <input class="form-check-input" type="checkbox" role="switch" id="switchCheckDefault">
+                    <label class="form-check-label" for="switchCheckDefault">Product Availability</label>
+                </div>
+                <div class="form-check form-switch">
+                    <input class="form-check-input" type="checkbox" role="switch" id="switchCheckDefault">
+                    <label class="form-check-label" for="switchCheckDefault">Bulk Order</label>
+                </div>
+                <div class="form-check form-switch">
+                    <input class="form-check-input" type="checkbox" role="switch" id="switchCheckDefault">
+                    <label class="form-check-label" for="switchCheckDefault">Appointment</label>
+                </div>
+                <div class="form-check form-switch">
+                    <input class="form-check-input" type="checkbox" role="switch" id="switchCheckDefault">
+                    <label class="form-check-label" for="switchCheckDefault">Repair / Service</label>
+                </div>
+
+                <div class="btn">
+                    <button type="submit" class="btn btn-secondary">Submit</button>
+                    <button type="reset" class="btn btn-secondary">Reset</button>
+                </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+ 

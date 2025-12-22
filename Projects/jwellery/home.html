@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <style>
+        body{
+            /*background-color: #F3E3DA;*/
+            background-color: #ede3de;
+        }
+        .mynav{
+            background-color:  #937465;
+        }
+        .vid{
+            margin-top: 3%;
+        }
+        li{
+            margin-top: 5%;
+            font-weight: 600;
+            font-size: 20px;
+        }
+        .row{
+            column-gap: 40px;
+            row-gap: 40px;
+            margin-left: 10%;
+            margin-top: 4%;
+        }
+        h1{
+            margin-top: 5%;
+        }
+        .card-body h5{
+            color:  #614b3f;
+            font-weight: 700;
+        }
+        .myc{
+            transition: 0.5s ease-in;
+        }
+        .myc:hover{
+            box-shadow:12px 28px rgba(0, 0, 0, 0.22); 
+            transform: translateY(-10px);
+        }
+        .container{
+            display: flex;
+            margin-top: 5%;
+            height: 100%;
+            width: 100%;
+            background-color: #d4bfb2;
+            color: #3e2c23;
+        }
+        .container h1{
+            margin-top: 4%;
+            margin-left: 3%;
+            animation: fadeIn 2s ease forwards;
+            animation-delay: 5s;
+            opacity: 0;
+        }
+        @keyframes fadeIn {
+            to {
+                transform: translateX(0);
+                opacity: 1;
+            }
+        }
+        .text p{
+            font-size: 1.5rem;
+        }
+        .text{
+            margin-left: 30%;
+            margin-top: 3%;
+            margin-bottom: 3%;
+        }
+        i{
+            font-size: 1rem;
+            word-spacing: 4px;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg mynav">
+    <div class="container-fluid">
+        
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            
+            <img src="/jwellery/images/logo.jpg" alt="" height="90px" width="90px">
+            
+            <li class="nav-item">
+            <a class="nav-link" href="home.html">Home</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="about-us.html">About Us</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="contact-us.html">Contact Us</a>
+            </li>
+        </ul>
+        <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+            <button class="btn btn-secondary" type="submit">Search</button>
+        </form>
+        </div>
+    </div>
+    </nav>
+
+    <div class="container-fluid p-0">
+        <video class="d-block mx-auto vid" width="90%" height="50%" autoplay loop muted >
+            <source src="/jwellery/images/Crystellea collection.mp4" type="video/mp4">
+        </video>
+    </div>
+
+    <div class="container">
+                <h1 class="scroll-anim"><u>Company <br>Overview</u></h1>
+            
+            <div class="text">
+                <p class="text-wrap text-break"> We are a jewellery brand built on quality, creativity,<br>
+                    and honest craftsmanship. Our designs blend <br>
+                    traditional and modern styles, offering elegant,<br>
+                    affordable, and long-lasting pieces for everyday<br>
+                    wear and special occasions.Every item is carefully<br>
+                    crafted to make you feel confident and stylish.</p>
+                <a href="about-us.html">
+                    <button type="button" class="btn btn-secondary">Read More ...</button>
+                </a>
+            </div>
+    </div>
+
+    <h1 style="color: #614b3f; font-weight: 800;"><center>Our collections</center></h1>
+    <div class="row">
+        <div class="card myc" style="width: 18rem; height: 20rem;">
+        <img src="/jwellery/images/i1.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">Neklace set</h5>
+        </div>
+        </div>
+
+        <div class="card myc" style="width: 18rem; height: 20rem;">
+        <img src="/jwellery//images//i5.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">Ring</h5>
+        </div>
+        </div>
+
+        <div class="card myc" style="width: 18rem; height: 20rem;">
+        <img src="/jwellery//images//i7.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">Waist Chain</h5>
+        </div>
+        </div>
+
+        <div class="card myc" style="width: 18rem; height: 20rem;">
+        <img src="/jwellery//images/i6.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">Bracelet</h5>
+        </div>
+        </div>
+
+        <div class="card myc" style="width: 18rem; height: 20rem;">
+        <img src="/jwellery//images//u.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">Waist latkan</h5>
+        </div>
+        </div>
+
+        <div class="card myc" style="width: 18rem; height: 20rem;">
+        <img src="/jwellery//images//i3.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">Earing</h5>         
+        </div>
+        </div>
+
+        <div class="card myc" style="width: 18rem; height: 20rem;">
+        <img src="/jwellery//images//i4.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">Bangle</h5>
+        </div>
+        </div>
+
+        <div class="card myc" style="width: 18rem; height: 20rem;">
+        <img src="/jwellery//images//i9.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">Anklet</h5>
+        </div>
+        </div>
+
+        <div class="card myc" style="width: 18rem; height: 20rem;" >
+        <img src="/jwellery//images//i2.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">Pendant</h5>  
+        </div>
+        </div>
+    </div>
+
+
+    <footer class="py-5 mt-5" style=" background-color:  #937465;">
+    <div class="container">
+    <div class="row">
+
+      <div class="col-md-4 mb-3">
+        <h5>About Us</h5>
+        <p class="small">
+          Premium handcrafted jewellery blending tradition and modern elegance.
+        </p>
+      </div>
+
+      <div class="col-md-4 mb-3">
+        <h5>Quick Links</h5>
+        <ul class="list-unstyled">
+          <li><a href="home.html" class="text-light text-decoration-none">Home</a></li>
+          <li><a href="about-us.html" class="text-light text-decoration-none">About</a></li>
+          <li><a href="contact-us.html" class="text-light text-decoration-none">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="col-md-4 mb-3">
+        <h5>Contact</h5>
+        <i class="fa-brands fa-square-instagram"></i>
+        <i class="fa-solid fa-comments"></i>
+        <i class="fa-solid fa-envelope"></i>
+        <i class="fa-solid fa-phone"></i>
+        <i class="fa-brands fa-square-whatsapp"></i>
+      </div>
+
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
