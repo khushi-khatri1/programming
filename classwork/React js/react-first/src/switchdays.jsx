@@ -45,4 +45,4 @@ function Week()
 
 }
 
-export default Week
+export default Week;

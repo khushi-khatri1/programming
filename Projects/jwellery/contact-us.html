@@ -39,15 +39,43 @@
         .myc:hover{
             transform: translateY(-8px);
         }
-        .btn{
-            margin-top: 1%;
+        select.form-select {
+            height: 38px;       
+            padding: 6px 12px;  
+            font-size: 1rem;    
+            box-sizing: border-box; 
+            
         }
-        label{
-            font-size: 1.2rem;
-            font-weight: 500;
-            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-            color: #27221f;
+
+         i{
+            font-size: 1rem;
+            word-spacing: 4px;
         }
+        .footer a{
+            text-decoration: none;
+            color: #543f35;;
+        }
+        .container{
+            display: flex;
+            margin-top: 5%;
+            height: 100%;
+            width: 100%;
+            background-color: #d4bfb2;
+            color: #3e2c23;
+        }
+        /*form{
+            max-height: 50%;
+            max-width: 50%;
+            border-radius: 5%;
+            background-color: #937465;
+            margin-top: 3%;
+        }*/
+       .location{
+            margin-right: 8%;
+       }
+       .location h5{
+            margin-top: 8%;
+       }
     </style>
 </head>
 <body>
@@ -80,6 +108,7 @@
     </div>
     </nav>
 
+    
     <h1 style="color: #614b3f; font-weight: 700;"><center>Contact Us via many platforms..</center></h1>
     <div class="row">
         <div class="card myc" style="width: 18rem; height: 10rem;">
@@ -125,65 +154,95 @@
         </div>
     </div>
 
-    <h1 style="color: #614b3f; font-weight: 700;"><center>Contact form..</center></h1>
-    <div class="container">
-        <div class="row justify-content-center">
+    <h1 style="color: #614b3f; font-weight: 700;"><center>Contact Form</center></h1>
+    <center>
+        <form action="" class="p-4 rounded-4" style="background-color:#d4bfb2; max-width: 50%;">
+        <div class="row g-4 align-items-center">
             <div class="col-md-6">
-                <form class="border p-4 rounded shadow" style="max-width: 600px;">
-                <div class="mb-3">
-                    <label for="exampleFormControlInput1" class="form-label">Full Name</label>
-                    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="">
-                </div>
+                <label for="" class="col-form-label">Full Name :</label>
+                <input type="text" id="" class="form-control" >
+            </div>
 
-                <div class="mb-3">
-                    <label for="exampleFormControlInput1" class="form-label">Phone Number</label>
-                    <input type="tel" class="form-control" id="exampleFormControlInput1" placeholder="">
-                </div>
+            <div class="col-md-6">
+                <label for="" class="col-form-label">Phone Number :</label>
+                <input type="number" id="" class="form-control" >
+            </div>
 
-                <div class="mb-3">
-                    <label for="exampleFormControlInput1" class="form-label">Email Address</label>
-                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="">
-                </div>
+            <div class="col-md-6">
+                <label for="" class="col-form-label">Email :</label>
+                <input type="email" id="" class="form-control">
+            </div>
+    
+            <div class="input-group">
+                <label class="input-group-text" for="inputGroupSelect01">Subject</label>
+                <select class="form-select" id="inputGroupSelect01" style="max-width: 40%;">
+                    <option selected>Choose...</option>
+                    <option value="1">General Enquiry</option>
+                    <option value="2">Custom Jewellery</option>
+                    <option value="3">Bulk Order</option>
+                    <option value="4">Repair / Resizing</option>
+                </select>
+            </div>
 
-                <div class="mb-3">
-                    <label for="exampleFormControlInput1" class="form-label">Product Name</label>
-                    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="">
-                </div>
+            <div class="col-md-6">
+                <label for="" class="col-form-label">Inquiry Details :</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
 
-                <label for="">Type of Inquiry</label>
-                <div class="form-check form-switch">
-                    <input class="form-check-input" type="checkbox" role="switch" id="switchCheckDefault">
-                    <label class="form-check-label" for="switchCheckDefault">Price Inquiry</label>
-                <div>
-                <div class="form-check form-switch">
-                    <input class="form-check-input" type="checkbox" role="switch" id="switchCheckDefault">
-                    <label class="form-check-label" for="switchCheckDefault">Custom Order</label>
-                </div>
-                <div class="form-check form-switch">
-                    <input class="form-check-input" type="checkbox" role="switch" id="switchCheckDefault">
-                    <label class="form-check-label" for="switchCheckDefault">Product Availability</label>
-                </div>
-                <div class="form-check form-switch">
-                    <input class="form-check-input" type="checkbox" role="switch" id="switchCheckDefault">
-                    <label class="form-check-label" for="switchCheckDefault">Bulk Order</label>
-                </div>
-                <div class="form-check form-switch">
-                    <input class="form-check-input" type="checkbox" role="switch" id="switchCheckDefault">
-                    <label class="form-check-label" for="switchCheckDefault">Appointment</label>
-                </div>
-                <div class="form-check form-switch">
-                    <input class="form-check-input" type="checkbox" role="switch" id="switchCheckDefault">
-                    <label class="form-check-label" for="switchCheckDefault">Repair / Service</label>
-                </div>
+            <div class="col-md-6">
+            <button type="button" class="btn btn-secondary px-4 rounded-4">Submit</button>
+            <button type="button" class="btn btn-secondary px-4 rounded-4">Reset</button>
+            </div>
 
-                <div class="btn">
-                    <button type="submit" class="btn btn-secondary">Submit</button>
-                    <button type="reset" class="btn btn-secondary">Reset</button>
+        </div>
+    </form>
+    </center>
+
+    
+<footer class="py-5 mt-5" style=" background-color:  #937465;">
+    <div class="container footer-container">
+        <div class="row">
+
+            <div class="col-md-4 mb-3">
+                <h5>About Us</h5>
+                <p class="small">
+                Premium handcrafted jewellery blending tradition and modern elegance.
+                </p>
+            </div>
+
+            <div class="col-md-4 mb-3 text-center">
+                <h5>Quick Links</h5>
+                <ul class="list-unstyled">
+                <li><a href="home.html" class="text-light text-decoration-none">Home</a></li>
+                <li><a href="about-us.html" class="text-light text-decoration-none">About</a></li>
+                <li><a href="contact-us.html" class="text-light text-decoration-none">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="col-md-4 mb-3">
+                <div class="col text-center footer">
+                <h5>Contact</h5>
+                <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+                <a href="#"><i class="fa-solid fa-comments"></i></a>
+                <a href="#"><i class="fa-solid fa-envelope"></i></a>
+                <a href="#"><i class="fa-solid fa-phone"></i></a>
+                <a href="#"><i class="fa-brands fa-square-whatsapp"></i></a>
                 </div>
-                </form>
             </div>
         </div>
+            
+        <div class="row mt-4 location">
+            <div class="col-12 mb-3">
+                <h5>Location</h5>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d139766.09447277547!2d72.54649914019798!3d22.995290911293313!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e8f5590ffcd7d%3A0x4b0554bef6153a98!2sGhodasar%2C%20Ahmedabad%2C%20Gujarat!5e0!3m2!1sen!2sin!4v1766659055647!5m2!1sen!2sin" width="100%" height="220" style="border:0;" allowfullscreen="" width="100%" max-height="220px" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+        
     </div>
-</body>
+</footer>
+
+
+    
+</body> 
 </html>
  
