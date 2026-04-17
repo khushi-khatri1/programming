@@ -1,0 +1,62 @@
+{
+  "user": [
+    {
+      "id": "1",
+      "name": "Khushi Khatri",
+      "email": "khushi12@gmail.com",
+      "password": "123",
+      "mobile": "158741025",
+      "status": "Block"
+    },
+    {
+      "id": "2",
+      "name": "Ashka ",
+      "email": "ashka12@gmail.com",
+      "password": "456",
+      "mobile": "158747877",
+      "status": "Unblock"
+    },
+    {
+      "id": "1774082660552",
+      "name": "Anjali ",
+      "email": "anjali14@gmail.com",
+      "password": "789",
+      "mobile": "7412589630",
+      "status": "Block"
+    },
+    {
+      "name": "stuti",
+      "email": "stuti@gmail.com",
+      "password": "7410",
+      "mobile": "8745965201",
+      "id": "jBzEKM_7wZo",
+      "status": "unblock"
+    }
+  ],
+  "contact": [
+    {
+      "id": "2",
+      "name": "Ashka Khatri ",
+      "email": "ashka12@gmail.com",
+      "password": "741",
+      "comment": "pls update uour profile"
+    },
+    {
+      "id": "1774082660552",
+      "name": "Anjali",
+      "email": "anjali14@gmail.com",
+      "password": "789",
+      "comment": "give your order id"
+    }
+  ],
+  "admin": [
+    {
+      "id": "111456789",
+      "name": "admin",
+      "password": "1234",
+      "email": "admin@gmail.com",
+      "status": "Unblock"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

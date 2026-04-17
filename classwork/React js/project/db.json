@@ -1,0 +1,74 @@
+{
+  "employee": [
+    {
+      "id": "1",
+      "name": "Khushi ",
+      "email": "khushi12@gmail.com",
+      "password": "123",
+      "mobile": "158741025",
+      "status": "Block"
+    },
+    {
+      "id": "2",
+      "name": "Ashka Khatri ",
+      "email": "ashka12@gmail.com",
+      "password": "456",
+      "mobile": "158747896",
+      "status": "Unblock"
+    },
+    {
+      "id": "1774082660552",
+      "name": "Anjali Singhal",
+      "email": "anjali14@gmail.com",
+      "password": "789",
+      "mobile": "7412589630",
+      "status": "Block"
+    }
+  ],
+  "contact": [
+    {
+      "id": "2",
+      "name": "Ashka Khatri ",
+      "email": "ashka12@gmail.com",
+      "password": "741",
+      "comment": "pls update uour profile"
+    },
+    {
+      "id": "1774082660552",
+      "name": "Anjali",
+      "email": "anjali14@gmail.com",
+      "password": "789",
+      "comment": "give your order id"
+    }
+  ],
+  "admin": [
+    {
+      "id": "111456789",
+      "name": "admin",
+      "password": "1234",
+      "email": "admin@gmail.com",
+      "status": "Unblock"
+    }
+  ],
+  "booking": [
+    
+    {
+      "email": "khushi14@gmail.com",
+      "phoneno": "7410258963",
+      "service": "hair cut",
+      "address": "pushpkunj ",
+      "id": "-Wezjvkz0yQ"
+    },
+    {
+      "email": "ash11@gmail.com",
+      "phoneno": "7410258963",
+      "service": "makeup",
+      "address": "swastik",
+      "id": "DD2RC9ncsHY"
+    }
+  ],
+  "user":[
+    
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

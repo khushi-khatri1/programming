@@ -1,0 +1,103 @@
+{
+  "Admin": [
+    {
+      "id": "1",
+      "name": "Prashant",
+      "email": "prashant21@gmail.com",
+      "password": "1234"
+    },
+    {
+      "id": "2",
+      "name": "Khushi",
+      "email": "khushi11@gmail.com",
+      "password": "4321"
+    },
+    {
+      "id": "3",
+      "name": "Anjali",
+      "email": "anjali07@gmail.com",
+      "password": "5678"
+    }
+  ],
+  "user": [
+    {
+      "id": "11",
+      "name": "Jiyaa",
+      "email": "Jiyaa07@gmail.com",
+      "password": "6789"
+    },
+    {
+      "id": "12",
+      "name": "Sanket",
+      "email": "sanket08@gmail.com",
+      "password": "9892"
+    },
+    {
+      "id": "13",
+      "name": "Sumit",
+      "email": "sumit09@gmail.com",
+      "password": "7412"
+    },
+    {
+      "id": "14",
+      "name": "Aastha",
+      "email": "aastha13@gmail.com",
+      "password": "1123"
+    },
+    {
+      "id": "15",
+      "name": "Kashish",
+      "email": "kashish14@gmail.com",
+      "password": "2425"
+    },
+    {
+      "id": "1773230796507",
+      "name": "anjali",
+      "email": "anji14@gmail.com",
+      "password": "anji123",
+      "status": "unblock"
+    }
+  ],
+  "blog": [
+    {
+      "id": "2",
+      "img": "https://in.thebar.com/_next/image?url=https://cms.in.thebar.com/PR1670/public/inline-images/Trending%2019%20June%20Paneer%20Starters_Inset.jpg?VersionId=0.gg2_OyBeFxkHN_3NJ.B0RtDqRrYI3_&w=1920&q=75",
+      "date": "2025-02-03",
+      "month": "FEB",
+      "year": "2025",
+      "desc": "hello this blog for paneer dishes"
+    },
+    {
+      "id": "3",
+      "img": "https://media.istockphoto.com/id/1334115358/photo/cabbage-manchurian.jpg?s=612x612&w=0&k=20&c=lZvW1lWr03mQszDbx4v59IAnxWacQ_Ti275hjj18hcE=",
+      "date": "2025-05-02",
+      "month": "MAY",
+      "year": "2025",
+      "desc": "hello this blog for manchurian"
+    },
+    {
+      "id": "1771238736172",
+      "img": "https://t4.ftcdn.net/jpg/02/45/50/43/360_F_245504344_4Du4BD36UE5r63jumAUa1CUzLAphUEUP.jpg",
+      "date": "2026-02-18",
+      "month": "FEB",
+      "year": "2026",
+      "desc": "yummy cheese ball"
+    },
+    {
+      "id": "1771239221404",
+      "img": "https://thumbs.dreamstime.com/b/decadent-chocolate-brownies-melting-sauce-brownie-chocolate-food-melting-icing-indulgence-cake-chocolate-cake-sweet-food-312292205.jpg",
+      "date": "2025-11-03",
+      "month": "NOV",
+      "year": "2025",
+      "desc": "sweet dessert brownie "
+    },
+    {
+      "id": "1771819070901",
+      "img": "https://www.shutterstock.com/image-photo/dal-makhani-indian-vegetarian-black-600nw-2244690977.jpg",
+      "date": "2026-02-23",
+      "month": "FEB",
+      "year": "2026",
+      "desc": "Dal makhani"
+    }
+  ]
+}

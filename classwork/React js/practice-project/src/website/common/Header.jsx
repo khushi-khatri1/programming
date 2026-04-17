@@ -37,29 +37,30 @@ function Header() {
                             </button>
                             <div className="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                                 <div className="navbar-nav mr-auto py-0">
-                                    <a href="index.html" className="nav-item nav-link active">Home</a>
-                                    <a href="about.html" className="nav-item nav-link">About</a>
-                                    <a href="menu.html" className="nav-item nav-link">Menu</a>
-                                    <a href="team.html" className="nav-item nav-link">Chefs</a>
+                                    <Link to="/" className="nav-item nav-link active">Home</Link>
+                                    <Link to="/about" className="nav-item nav-link">About</Link>
+                                    <Link to="/menu" className="nav-item nav-link">Menu</Link>
+                                    <Link to="/chefs" className="nav-item nav-link">Chefs</Link>
+
                                     <div className="nav-item dropdown">
                                         <a href="#" className="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
                                         <div className="dropdown-menu rounded-0 m-0">
-                                            <a href="feature.html" className="dropdown-item">Features</a>
-                                            <a href="blog.html" className="dropdown-item">Blog Post</a>
-                                            <a href="testimonial.html" className="dropdown-item">Testimonial</a>
-                                            <a href="404.html" className="dropdown-item">404 Error</a>
+                                            <Link to="/features" className="dropdown-item">Features</Link>
+                                            <Link to="/blog" className="dropdown-item">Blog Post</Link>
+                                            <Link to="/testimonial" className="dropdown-item">Testimonial</Link>
+                                            <Link to="/error" className="dropdown-item">404 Error</Link>
                                         </div>
                                     </div>
-                                    <a href="contact.html" className="nav-item nav-link">Contact</a>
+                                    <Link to="/contact" className="nav-item nav-link">Contact</Link>
                                 </div>
                                 <div className="d-none d-lg-flex align-items-center py-2">
-                                    <a className="btn btn-outline-secondary btn-square rounded-circle ms-2" href>
+                                    <a className="btn btn-outline-secondary btn-square rounded-circle ms-2" href="#">
                                         <i className="fab fa-facebook-f" />
                                     </a>
-                                    <a className="btn btn-outline-secondary btn-square rounded-circle ms-2" href>
+                                    <a className="btn btn-outline-secondary btn-square rounded-circle ms-2" href="#">
                                         <i className="fab fa-twitter" />
                                     </a>
-                                    <a className="btn btn-outline-secondary btn-square rounded-circle ms-2" href>
+                                    <a className="btn btn-outline-secondary btn-square rounded-circle ms-2" href="#">
                                         <i className="fab fa-linkedin-in" />
                                     </a>
                                 </div>

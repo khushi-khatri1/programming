@@ -577,7 +577,7 @@ function Home() {
             </div >
         {/* Instagram End */ }
 
-        <Footer/>
+        <Footer />
         </div >
 
 
