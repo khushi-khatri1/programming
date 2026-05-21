@@ -1,0 +1,16 @@
+.offer-banner {
+  background: linear-gradient(135deg, #e0f7fa 0%, #b2ebf2 100%);
+  padding: 1rem 0;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.offer-banner .badge {
+  font-size: 1.2rem;
+  padding: 0.5rem 1rem;
+}
+
+.offer-banner:hover {
+  transform: translateY(-3px);
+  transition: transform 0.3s ease;
+}

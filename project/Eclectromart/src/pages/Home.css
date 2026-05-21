@@ -1,0 +1,27 @@
+/* Home.css */
+/* Hero section background and hero image hover animation */
+.hero-section {
+  position: relative;
+  overflow: hidden;
+}
+.hero-img {
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+.hero-img:hover {
+  transform: scale(1.05) rotate(-1deg);
+  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.15);
+}
+/* Offer banner styling (fallback if not overridden) */
+.offer-banner {
+  background: linear-gradient(135deg, #34d399, #10b981);
+  color: white;
+  padding: 1rem 0;
+  border-radius: 0.5rem;
+}
+.offer-banner .badge {
+  font-size: 1.1rem;
+}
+/* General utility classes */
+.text-center {
+  text-align: center;
+}

@@ -1,0 +1,23 @@
+var express=require('express');
+var app=express();
+
+app.get('/',(req,res)=>{
+	res.send('<h1>Hello word</h1>');
+})
+
+app.get('/about',(req,res)=>{
+	res.send('<h1>Hello about</h1>');
+})
+
+//get parameter by routing 
+app.get('/argument',(req,res)=>{
+    console.log('Data send by Browser',req.query)
+    res.send(`<h1>Hello argument : ${req.query.name}</h1>`);
+})
+
+app.get('/data/:id',(req,res)=>{
+    console.log('User Id Parameter:',req.params.id)
+    res.send(`<h1>User Id is : ${req.params.id}</h1>`);
+})
+
+app.listen(4000);

@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Playfair+Display:wght@700&display=swap');
+
+:root {
+  --primary-color: #f39c12; /* Golden orange */
+  --primary-hover: #e67e22;
+  --bg-dark: #121212;
+  --bg-card: #1e1e1e;
+  --text-light: #ffffff;
+  --text-muted: #a0a0a0;
+  --border-color: rgba(255, 255, 255, 0.1);
+}
+
+body {
+  margin: 0;
+  font-family: 'Outfit', sans-serif;
+  background-color: var(--bg-dark);
+  color: var(--text-light);
+  overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Playfair Display', serif;
+  color: var(--primary-color);
+  margin-bottom: 1rem;
+}
+
+/* Glassmorphism Navbar */
+.custom-navbar {
+  background: rgba(18, 18, 18, 0.85) !important;
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid var(--border-color);
+  padding: 1rem 2rem;
+  transition: all 0.3s ease-in-out;
+}
+
+.custom-navbar .navbar-brand {
+  font-family: 'Playfair Display', serif;
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--primary-color) !important;
+  letter-spacing: 2px;
+}
+
+.custom-navbar .nav-link {
+  color: var(--text-light) !important;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin: 0 10px;
+  transition: color 0.3s;
+}
+
+.custom-navbar .nav-link:hover,
+.custom-navbar .nav-link.active {
+  color: var(--primary-color) !important;
+}
+
+/* Hero Section */
+.hero-section {
+  position: relative;
+  min-height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(rgba(18, 18, 18, 0.7), rgba(18, 18, 18, 0.9)), url('https://images.unsplash.com/photo-1514933651103-005eec06c04b?q=80&w=1934&auto=format&fit=crop') no-repeat center center/cover;
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.hero-title {
+  font-size: 5rem;
+  font-weight: 800;
+  margin-bottom: 20px;
+  animation: fadeInDown 1s ease-out;
+  text-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+}
+
+.hero-subtitle {
+  font-size: 1.5rem;
+  font-weight: 300;
+  color: var(--text-light);
+  margin-bottom: 40px;
+  animation: fadeInUp 1s ease-out 0.5s both;
+}
+
+.btn-custom {
+  background-color: var(--primary-color);
+  color: #fff;
+  padding: 12px 30px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  border-radius: 50px;
+  border: none;
+  transition: all 0.3s;
+  box-shadow: 0 4px 15px rgba(243, 156, 18, 0.4);
+  text-decoration: none;
+  display: inline-block;
+  animation: fadeInUp 1s ease-out 1s both;
+}
+
+.btn-custom:hover {
+  background-color: var(--primary-hover);
+  transform: translateY(-3px);
+  color: white;
+}
+
+/* Card Design for Blogs and Features */
+.custom-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border-color);
+  border-radius: 15px;
+  overflow: hidden;
+  transition: all 0.4s ease;
+  height: 100%;
+}
+
+.custom-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+  border-color: var(--primary-color);
+}
+
+.custom-card img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+.custom-card:hover img {
+  transform: scale(1.05);
+}
+
+.custom-card .card-body {
+  padding: 2rem;
+}
+
+.custom-card .card-title {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+  color: var(--primary-color);
+}
+
+.custom-card .card-text {
+  color: var(--text-muted);
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+/* Animations */
+@keyframes fadeInDown {
+  from { opacity: 0; transform: translateY(-30px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(30px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* Footer styling */
+.custom-footer {
+  background: #000;
+  padding: 3rem 0;
+  border-top: 2px solid var(--primary-color);
+  color: var(--text-muted);
+}
+.custom-footer h5 {
+  color: var(--text-light);
+  font-family: 'Outfit', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.custom-footer .social-icons a {
+  color: var(--primary-color);
+  font-size: 1.5rem;
+  margin-right: 15px;
+  transition: color 0.3s;
+}
+.custom-footer .social-icons a:hover {
+  color: #fff;
+}
